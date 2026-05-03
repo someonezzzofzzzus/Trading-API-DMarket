@@ -1,10 +1,10 @@
 # Automated API Trading Script
 
 ## Overview
-The Project analyse the data for all available data items' skins related to Counter Strike 2 ( The market of total cap ~$5.85 billion [https://pricempire.com/app/trending] )
-Using API GraphQL server with encoded API-keys headers for DMarket market platform
-Creates targets for buying items as well as post sell offers for holding skins
-It runs 24/7 on the remote server 
+# The Project analyse the data for all available data items' skins related to Counter Strike 2 ( The market of total cap ~$5.85 billion [https://pricempire.com/app/trending] )
+# Using API GraphQL server with encoded API-keys headers for DMarket market platform
+# Creates targets for buying items as well as post sell offers for holding skins
+# It runs 24/7 on the remote server 
 
 ## Problem
 For analysing such a huge data set, script require time for get all the requests from Marketplace's server( Consequent requests required ~40 minutes to complete the script).
