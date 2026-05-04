@@ -21,9 +21,9 @@ Using parallelism and sending multiple GET requests using aiohttp module (Time w
 ## Screenshots
 #Q1 2025 
 Monthly Sales
-<img width="664" height="598" alt="Screenshot 2026-05-04 210958" src="https://github.com/user-attachments/assets/80b8191b-0665-49ca-a31b-5f76de4c1430" />
+<img width="480" height="460" alt="Screenshot 2026-05-04 210958" src="https://github.com/user-attachments/assets/80b8191b-0665-49ca-a31b-5f76de4c1430" />
 Gains & Losses 
-<img width="956" height="282" alt="Screenshot 2026-05-04 211221" src="https://github.com/user-attachments/assets/a17a95c8-299f-4e8c-8c54-2f0d9db64b70" />
+<img width="720" height="220" alt="Screenshot 2026-05-04 211221" src="https://github.com/user-attachments/assets/a17a95c8-299f-4e8c-8c54-2f0d9db64b70" />
 
 ## Demo
 Link to live demo / video
