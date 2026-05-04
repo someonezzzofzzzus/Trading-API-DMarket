@@ -19,7 +19,7 @@ Using parallelism and sending multiple GET requests using aiohttp module (Time w
 
 ## Screenshots
 Intermidiate results of analysing data
-<img width="885" height="691" alt="image" src="https://github.com/user-attachments/assets/fa1e961c-2776-42c2-bd6c-55224b37cc86" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/fa1e961c-2776-42c2-bd6c-55224b37cc86" />
 
 ## Demo
 Link to live demo / video
