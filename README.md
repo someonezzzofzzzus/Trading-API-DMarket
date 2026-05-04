@@ -1,3 +1,4 @@
+
 # Automated API Trading Script
 
 ## Overview
@@ -21,6 +22,8 @@ Using parallelism and sending multiple GET requests using aiohttp module (Time w
 Intermidiate results of analysing data
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/fa1e961c-2776-42c2-bd6c-55224b37cc86" />
 
+Selling History
+<img width="600" height="400" alt="Screenshot 2026-05-04 205328" src="https://github.com/user-attachments/assets/60dd5c4a-02d7-4aa4-a3c9-9f63dfc40e6c" />
 ## Demo
 Link to live demo / video
 
