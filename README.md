@@ -19,7 +19,8 @@ Using parallelism and sending multiple GET requests using aiohttp module (Time w
 - Encoding API-keys with NaCl.cripto_sign for safe requests
 
 ## Screenshots
-#Q1 2025 
+#Q1 2026
+
 Monthly Sales
 <img width="480" height="460" alt="Screenshot 2026-05-04 210958" src="https://github.com/user-attachments/assets/80b8191b-0665-49ca-a31b-5f76de4c1430" />
 Gains & Losses 
