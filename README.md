@@ -3,6 +3,7 @@
 
 ## Overview
 The Project analyse the data for all available data items' skins related to Counter Strike 2 ( The market of total cap ~$5.85 billion [https://pricempire.com/app/trending] )  /  
+With an algorithm developed by our team, scripts sort out items that do not pass the criterias / 
 Using API GraphQL server with encoded API-keys headers for DMarket market platform  /  
 Creates targets for buying items as well as post sell offers for holding skins  /  
 It runs 24/7 on the remote server   
