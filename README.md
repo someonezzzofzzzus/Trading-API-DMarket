@@ -2,12 +2,12 @@
 # Automated API Trading Script
 
 ## Overview
-The Project analyse the data for all available data items' skins related to Counter Strike 2 ( The market of total cap ~$5.85 billion [https://pricempire.com/app/trending] )  /  
-With an algorithm developed by our team, scripts sort out items that do not pass the criterias /
-Using database on MySQL base to store and manipulate the data through SQLite3 Python library /
-Using API GraphQL server with encoded API-keys headers for DMarket market platform  /  
-Creates targets for buying items as well as post sell offers for holding skins  /  
-It runs 24/7 on the remote server   
+- The Project analyse the data for all available data items' skins on Counter Strike 2 ( The market of total cap ~$5.85 billion [https://pricempire.com/app/trending] )  
+- With an algorithm developed by our team, scripts sort out items that do not pass the criterias 
+- Using database on MySQL base to store and manipulate the data through SQLite3 Python library 
+- Using API GraphQL server with encoded API-keys headers for DMarket market platform    
+- Creates targets for buying items as well as post sell offers for holding skins    
+- It runs 24/7 on the remote server   
 
 ## Problem
 For analysing such a huge data set, script require time for get all the requests from Marketplace's server( Consequent requests required ~40 minutes to complete the script).
@@ -22,7 +22,7 @@ Using parallelism and sending multiple GET requests using aiohttp module (Time w
 - Encoding API-keys with NaCl.cripto_sign for safe requests
 
 ## Screenshots
-#Q1 2026
+# Q1 2026 Earnings Reports
 
 Monthly Sales
 <img width="480" height="460" alt="Screenshot 2026-05-04 210958" src="https://github.com/user-attachments/assets/80b8191b-0665-49ca-a31b-5f76de4c1430" />
@@ -31,9 +31,9 @@ Gains & Losses
 
 ## Tech Stack
 
-Backend:  Python/Bash
-Libraries: aiohttp / JSON / pandas / 
-Database: Pandas/NaCl/Excel/SQLite3
+#### Backend:  Python / Bash 
+#### Libraries: aiohttp / JSON / pandas  
+#### Database: Pandas / PyNaCl / Excel / SQLite3
 
 ## Roadmap
 - [x] Develop fully functional script
