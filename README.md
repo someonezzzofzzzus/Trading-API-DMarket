@@ -3,7 +3,8 @@
 
 ## Overview
 The Project analyse the data for all available data items' skins related to Counter Strike 2 ( The market of total cap ~$5.85 billion [https://pricempire.com/app/trending] )  /  
-With an algorithm developed by our team, scripts sort out items that do not pass the criterias /   
+With an algorithm developed by our team, scripts sort out items that do not pass the criterias /
+Using database on MySQL base to store and manipulate the data through SQLite3 Python library /
 Using API GraphQL server with encoded API-keys headers for DMarket market platform  /  
 Creates targets for buying items as well as post sell offers for holding skins  /  
 It runs 24/7 on the remote server   
@@ -16,6 +17,7 @@ Using parallelism and sending multiple GET requests using aiohttp module (Time w
 
 ## Features
 - All Itermidiate results during filtering the items are stored in Excel Files allowing faster finding bugs in script
+- Data is stored in SQLite Database which can be easily read by PostgreSQL or MySQL client/server.
 - All the logs of each script run daily are stored and send via email to user for keep them on track of any issues
 - Encoding API-keys with NaCl.cripto_sign for safe requests
 
@@ -31,7 +33,7 @@ Gains & Losses
 
 Backend:  Python/Bash
 Libraries: aiohttp / JSON / pandas / 
-Database: Pandas/NaCl/Excel
+Database: Pandas/NaCl/Excel/SQLite3
 
 ## Roadmap
 - [x] Develop fully functional script
