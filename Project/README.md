@@ -20,78 +20,20 @@ Running the full pipeline places and cancels real orders on the account whose AP
 | 6 | `scripts/4_skins_history_indicators.py` | Builds the volume-derived figures used later for offer depth. |
 | 7 | `scripts/5_skins_offers.py` | Reads the offer book and stores the inputs used to price buy targets. |
 | 8 | `scripts/6_history_records.py` | Refreshes balance, items on hold, and selling history, and appends the month’s sales archive. |
-| 9 | `scripts/7_target_creation.py` | Places new buy targets, capped by weekly volume and account capital. |
+| 9 | `scripts/7_target_creation.py` | Places new buy targets, capped by weekly volume and account capital. | ##Not Published for Copyright safety reasons
 
 Two scripts sit outside that runner and are meant to be scheduled on their own:
 
 - `sell_script.py` lists inventory items that the pipeline bought.
 - `delete_sells.py` removes part of the account’s active sell offers.
 
-`gloves_knives_data_collection.py` is a separate research job. It reads glove and knife workbooks next to the script and writes a timestamped workbook of minimum weekly volume and offer prices. It does not place orders.
-
-The shell files in `Project/` (`target_creation_csGem.sh`, `sell_script_csGem.sh`, `delete_sells_csGem.sh`, `register_logs.sh`) are cron wrappers from a Linux host. Paths inside them point at that machine; change them before you reuse the files.
+The shell files in `Project/` (`target_creation_csGem.sh`, `sell_script_csGem.sh`, `delete_sells_csGem.sh`, `register_logs.sh`) are cron wrappers from a Linux host. Paths inside them point at that machine; change them before you reuse the files. They are used for crontab scheduller on the server.
 
 ## Requirements
 
 - Python 3.10 or newer
 - A DMarket account with API keys (Ed25519 public key and secret)
 - Network access to `https://api.dmarket.com`
-
-## Setup
-
-From the repository root:
-
-```bash
-cd Project
-python -m venv .venv
-```
-
-Windows (PowerShell):
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
-
-macOS / Linux:
-
-```bash
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-Create `Project/.env` (this file is gitignored):
-
-```
-DMARKET_PUBLIC_KEY=your_public_key
-DMARKET_SECRET_KEY=your_secret_key
-```
-
-`credentials.py` checks, in order: those environment variables, a `.env` file, then `Project/JSON/config.json` with `public_key` and `secret_key`. Do not commit either file.
-
-## Run
-
-Full pipeline, from `Project/`:
-
-```bash
-python run_scripts.py
-```
-
-The runner stops with a non-zero exit code if any step fails. Output is printed to the console.
-
-List bought items for sale, after fees and inventory have been refreshed:
-
-```bash
-python Fees_Script.py
-python scripts/6_history_records.py
-python sell_script.py
-```
-
-Storage tests do not call DMarket:
-
-```bash
-python tests/test_db.py
-```
 
 ## Data
 
@@ -141,15 +83,8 @@ Project/
   trading_results/        Database, workbooks, and sales archive
 ```
 
-## Before you publish
-
-Keep secrets and account data out of the public repository:
-
-- `.env` and `JSON/config.json` (already listed in `.gitignore`)
-- API keys, mail credentials, and partner tokens
-- `trading.db`, Excel workbooks, and log files
-
-`email_logs.py` can mail the previous day’s log folder. It needs the `sendgrid` package, which is not in `requirements.txt`, and it should read its API key from the environment rather than from source.
+## NO SETUP PROVIDED
+## ONLY SHOWCASE
 
 ## Disclaimer
 
