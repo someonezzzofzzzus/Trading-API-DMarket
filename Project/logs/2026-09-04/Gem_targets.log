@@ -1,0 +1,2244 @@
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1836
+Blocked Cash = 0.0
+Assets Value = 732.15
+2568.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+5.173683166503906e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 393.2s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1836.09 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1836.09 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1836
+Blocked Cash = 0.0
+Assets Value = 732.15
+2568.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1836.09 | Blocked Cash: 0.0 | Assets: 732.15
+Total Capital: 2568.24
+{'AK-47 | Aphrodite (Minimal Wear)': [24.69, 1], 'AK-47 | Ice Coaled (Minimal Wear)': [6.8, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.71, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.5, 4], 'AK-47 | Phantom Disruptor (Field-Tested)': [5.03, 2], 'AK-47 | Searing Rage (Field-Tested)': [4.03, 3], 'AK-47 | The Oligarch (Field-Tested)': [42.34, 1], 'AWP | Atheris (Field-Tested)': [3.93, 3], 'AWP | Crakow! (Field-Tested)': [21.5, 3], 'AWP | Exothermic (Field-Tested)': [3.18, 3], 'AWP | Exothermic (Minimal Wear)': [5.45, 3], 'AWP | Hyper Beast (Field-Tested)': [29.83, 1], 'AWP | Ice Coaled (Field-Tested)': [5.93, 2], 'AWP | Mortis (Field-Tested)': [3.48, 1], 'AWP | The End (Field-Tested)': [11.29, 3], 'AWP | The End (Minimal Wear)': [16.46, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.23, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.17, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.95, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.76, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.87, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.99, 1], 'Desert Eagle | Serpent Strike (Factory New)': [1.63, 1], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.68, 0], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.53, 1], 'Galil AR | Eco (Field-Tested)': [11.4, 2], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.77, 2], 'Glock-18 | Trace Lock (Factory New)': [6.16, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.94, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.63, 1], 'Glock-18 | Water Elemental (Field-Tested)': [17.82, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Liquidation (Field-Tested)': [1.85, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.14, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.11, 4], 'M4A1-S | Nightmare (Minimal Wear)': [20.89, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Party Animal (Minimal Wear)': [14.02, 0], 'M4A1-S | Solitude (Minimal Wear)': [3.69, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.04, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [13.03, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.49, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.72, 0], 'M4A4 | Hellish (Field-Tested)': [15.17, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.73, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.21, 0], 'M4A4 | Temukau (Minimal Wear)': [49.88, 1], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'M4A4 | ?? (Dragon King) (Field-Tested)': [12.36, 2], 'MAC-10 | Saib? Oni (Field-Tested)': [0.93, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.66, 2], 'MP9 | Food Chain (Field-Tested)': [3.32, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.52, 1], 'MP9 | Mount Fuji (Minimal Wear)': [8.76, 0], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.73, 1], 'USP-S | Bleeding Edge (Factory New)': [6.22, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [3.12, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [5.93, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.64, 2], 'USP-S | Printstream (Field-Tested)': [35.18, 2], 'USP-S | Printstream (Minimal Wear)': [55.93, 1], 'USP-S | Royal Guard (Factory New)': [5.44, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.86, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.58, 2], 'USP-S | The Traitor (Field-Tested)': [31.53, 1], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'AK-47 | Elite Build (Field-Tested)': [1.59, 1], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 2], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 832.54 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1830
+Blocked Cash = 14.64
+Assets Value = 724.09
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+3.62396240234375e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 389.4s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1845.0900000000001 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1845.0900000000001 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1830
+Blocked Cash = 14.64
+Assets Value = 724.09
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1830.45 | Blocked Cash: 14.64 | Assets: 724.09
+Total Capital: 2569.1800000000003
+{'AK-47 | Aphrodite (Minimal Wear)': [24.69, 1], 'AK-47 | Midnight Laminate (Factory New)': [14.79, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Searing Rage (Field-Tested)': [4.03, 3], 'AK-47 | The Oligarch (Field-Tested)': [42.34, 1], 'AWP | Atheris (Field-Tested)': [3.97, 3], 'AWP | Crakow! (Field-Tested)': [21.6, 3], 'AWP | Exothermic (Field-Tested)': [3.18, 3], 'AWP | Exothermic (Minimal Wear)': [5.28, 3], 'AWP | Hyper Beast (Field-Tested)': [29.84, 1], 'AWP | Ice Coaled (Field-Tested)': [5.92, 2], 'AWP | Mortis (Field-Tested)': [3.49, 1], 'AWP | The End (Field-Tested)': [11.31, 3], 'AWP | The End (Minimal Wear)': [16.37, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.23, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Light Rail (Field-Tested)': [0.92, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.75, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.87, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [7.04, 1], 'Desert Eagle | Serpent Strike (Factory New)': [1.63, 1], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.68, 0], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.48, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.78, 2], 'Glock-18 | Trace Lock (Factory New)': [6.22, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.65, 1], 'Glock-18 | Water Elemental (Field-Tested)': [17.82, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.18, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.13, 4], 'M4A1-S | Nightmare (Minimal Wear)': [20.98, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Solitude (Minimal Wear)': [3.71, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.08, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.63, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.49, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.77, 0], 'M4A4 | Hellish (Field-Tested)': [15.19, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.76, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.03, 0], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'M4A4 | ?? (Dragon King) (Field-Tested)': [12.41, 2], 'M4A4 | ?? (Dragon King) (Minimal Wear)': [22.37, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.93, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.66, 2], 'MP9 | Food Chain (Field-Tested)': [3.33, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.52, 1], 'MP9 | Mount Fuji (Minimal Wear)': [8.76, 0], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.73, 1], 'USP-S | Bleeding Edge (Factory New)': [6.21, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [3.14, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [5.93, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.64, 1], 'USP-S | Printstream (Minimal Wear)': [55.96, 1], 'USP-S | Royal Guard (Factory New)': [5.36, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.83, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.21, 2], 'USP-S | The Traitor (Field-Tested)': [31.54, 1], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 2], 'USP-S | Tropical Breeze (Factory New)': [1.46, 1], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 815.22 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1825
+Blocked Cash = 14.64
+Assets Value = 729.73
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+4.553794860839844e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 344.1s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1839.45 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1839.45 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1825
+Blocked Cash = 14.64
+Assets Value = 729.73
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1824.81 | Blocked Cash: 14.64 | Assets: 729.73
+Total Capital: 2569.1800000000003
+{'AK-47 | Aphrodite (Minimal Wear)': [24.71, 1], 'AK-47 | Aquamarine Revenge (Field-Tested)': [32.43, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [6.79, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.8, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Searing Rage (Field-Tested)': [4.03, 3], 'AK-47 | The Oligarch (Field-Tested)': [42.35, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.47, 2], 'AWP | Atheris (Field-Tested)': [3.99, 3], 'AWP | Crakow! (Field-Tested)': [21.64, 3], 'AWP | Exothermic (Field-Tested)': [3.18, 3], 'AWP | Exothermic (Minimal Wear)': [5.32, 3], 'AWP | Hyper Beast (Field-Tested)': [29.9, 1], 'AWP | Ice Coaled (Field-Tested)': [5.95, 2], 'AWP | Mortis (Field-Tested)': [3.49, 1], 'AWP | The End (Field-Tested)': [11.31, 3], 'AWP | The End (Minimal Wear)': [16.38, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.22, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.09, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.94, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.81, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.85, 1], 'Desert Eagle | Serpent Strike (Factory New)': [1.63, 1], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Desert Eagle | Trigger Discipline (Minimal Wear)': [1.44, 1], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.48, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.77, 2], 'Glock-18 | Trace Lock (Factory New)': [6.35, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.63, 1], 'Glock-18 | Water Elemental (Field-Tested)': [17.84, 1], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.74, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.82, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.09, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.15, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.06, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Solitude (Minimal Wear)': [3.86, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.08, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.71, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.49, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.77, 0], 'M4A4 | Hellish (Field-Tested)': [15.21, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.77, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.21, 0], 'M4A4 | Temukau (Minimal Wear)': [47.88, 1], 'M4A4 | The Emperor (Field-Tested)': [50.69, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.92, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.66, 2], 'MP9 | Food Chain (Field-Tested)': [3.34, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.52, 1], 'MP9 | Mount Fuji (Minimal Wear)': [8.75, 0], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.65, 1], 'USP-S | Bleeding Edge (Factory New)': [6.21, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [3.15, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [5.97, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.6, 0], 'USP-S | Printstream (Minimal Wear)': [55.97, 1], 'USP-S | Royal Guard (Factory New)': [5.41, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.82, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.24, 2], 'USP-S | The Traitor (Field-Tested)': [31.5, 1], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 3], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AWP | Black Nile (Field-Tested)': [2.27, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 2], 'USP-S | Tropical Breeze (Factory New)': [1.46, 1], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 790.24 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1825
+Blocked Cash = 14.64
+Assets Value = 729.73
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+7.939338684082031e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 357.6s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1839.45 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1839.45 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1825
+Blocked Cash = 14.64
+Assets Value = 729.73
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1824.81 | Blocked Cash: 14.64 | Assets: 729.73
+Total Capital: 2569.1800000000003
+{'AK-47 | Aphrodite (Field-Tested)': [13.15, 3], 'AK-47 | Aquamarine Revenge (Field-Tested)': [32.44, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [6.79, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.38, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.7, 4], 'AK-47 | Searing Rage (Field-Tested)': [4.03, 3], 'AK-47 | The Oligarch (Field-Tested)': [42.35, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.47, 2], 'AWP | Atheris (Field-Tested)': [3.9, 3], 'AWP | Crakow! (Field-Tested)': [21.56, 3], 'AWP | Exothermic (Field-Tested)': [3.15, 3], 'AWP | Exothermic (Minimal Wear)': [5.36, 3], 'AWP | Ice Coaled (Field-Tested)': [5.95, 2], 'AWP | The End (Field-Tested)': [11.23, 3], 'AWP | The End (Minimal Wear)': [16.45, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.22, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.15, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.92, 1], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.9, 1], 'Desert Eagle | Serpent Strike (Factory New)': [1.63, 1], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Desert Eagle | Trigger Discipline (Minimal Wear)': [1.48, 1], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.59, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.9, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.77, 2], 'Glock-18 | Trace Lock (Factory New)': [6.4, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.9, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.58, 1], 'Glock-18 | Water Elemental (Field-Tested)': [17.84, 1], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.74, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.22, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.17, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.15, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Solitude (Minimal Wear)': [3.79, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.11, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.78, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.52, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.78, 0], 'M4A4 | Hellish (Field-Tested)': [15.21, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.76, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.14, 0], 'M4A4 | Temukau (Minimal Wear)': [48.43, 1], 'M4A4 | The Emperor (Field-Tested)': [50.69, 1], 'M4A4 | Tooth Fairy (Minimal Wear)': [4.67, 2], 'MAC-10 | Disco Tech (Field-Tested)': [5.01, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.93, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.66, 2], 'MP9 | Food Chain (Field-Tested)': [3.36, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.51, 1], 'MP9 | Mount Fuji (Minimal Wear)': [8.74, 0], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.68, 1], 'USP-S | Bleeding Edge (Factory New)': [6.22, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.47, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.05, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.6, 0], 'USP-S | Printstream (Field-Tested)': [35.21, 2], 'USP-S | Printstream (Minimal Wear)': [55.99, 1], 'USP-S | Royal Guard (Factory New)': [5.3, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.84, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.3, 2], 'USP-S | The Traitor (Field-Tested)': [31.53, 1], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 3], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AWP | Black Nile (Field-Tested)': [2.24, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 2], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 830.52 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1818
+Blocked Cash = 14.64
+Assets Value = 736.63
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+4.673004150390625e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 341.2s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1832.5500000000002 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1832.5500000000002 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1818
+Blocked Cash = 14.64
+Assets Value = 736.63
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1817.91 | Blocked Cash: 14.64 | Assets: 736.63
+Total Capital: 2569.1800000000003
+{'AK-47 | Aphrodite (Field-Tested)': [13.18, 3], 'AK-47 | Aquamarine Revenge (Field-Tested)': [32.47, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [6.81, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.6, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.74, 4], 'AK-47 | Point Disarray (Field-Tested)': [10.9, 2], 'AK-47 | Searing Rage (Field-Tested)': [4.02, 3], 'AK-47 | The Oligarch (Field-Tested)': [42.35, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.47, 2], 'AWP | Atheris (Field-Tested)': [3.95, 3], 'AWP | Crakow! (Field-Tested)': [21.55, 3], 'AWP | Duality (Minimal Wear)': [4.4, 2], 'AWP | Exothermic (Field-Tested)': [3.15, 3], 'AWP | Exothermic (Minimal Wear)': [5.4, 3], 'AWP | The End (Field-Tested)': [10.34, 3], 'AWP | The End (Minimal Wear)': [16.52, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.22, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Light Rail (Field-Tested)': [0.91, 1], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.85, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.63, 1], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.66, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.9, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.77, 2], 'Glock-18 | Trace Lock (Factory New)': [6.42, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.59, 1], 'Glock-18 | Water Elemental (Field-Tested)': [17.84, 1], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.74, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.84, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.1, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.14, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.27, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Solitude (Minimal Wear)': [3.79, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.13, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.87, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.53, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.78, 0], 'M4A4 | Hellish (Field-Tested)': [15.21, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.76, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.13, 0], 'M4A4 | Temukau (Minimal Wear)': [48.79, 1], 'M4A4 | The Emperor (Field-Tested)': [50.69, 1], 'M4A4 | ?? (Dragon King) (Minimal Wear)': [22.4, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.93, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Food Chain (Field-Tested)': [3.36, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.51, 1], 'MP9 | Mount Fuji (Minimal Wear)': [8.74, 0], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.68, 1], 'USP-S | Bleeding Edge (Factory New)': [5.98, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.69, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Printstream (Field-Tested)': [35.18, 2], 'USP-S | Printstream (Minimal Wear)': [56.01, 1], 'USP-S | Royal Guard (Factory New)': [5.38, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.84, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.32, 2], 'USP-S | The Traitor (Field-Tested)': [31.5, 1], 'USP-S | Ticket to Hell (Factory New)': [2.17, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 3], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AWP | Black Nile (Field-Tested)': [2.27, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.4, 2], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 784.73 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1818
+Blocked Cash = 14.64
+Assets Value = 736.63
+2569.18
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+5.125999450683594e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 353.8s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1832.5500000000002 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1832.5500000000002 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1819
+Blocked Cash = 14.64
+Assets Value = 735.32
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1819.28 | Blocked Cash: 14.64 | Assets: 735.32
+Total Capital: 2569.2400000000002
+{'AK-47 | Aphrodite (Field-Tested)': [13.2, 3], 'AK-47 | Aphrodite (Minimal Wear)': [24.67, 1], 'AK-47 | Ice Coaled (Minimal Wear)': [6.81, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.63, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.76, 4], 'AK-47 | Point Disarray (Field-Tested)': [10.9, 2], 'AK-47 | Searing Rage (Field-Tested)': [4.02, 3], 'AK-47 | Searing Rage (Minimal Wear)': [5.7, 2], 'AK-47 | The Oligarch (Field-Tested)': [41.64, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.43, 2], 'AWP | Atheris (Field-Tested)': [3.97, 3], 'AWP | Crakow! (Field-Tested)': [21.18, 3], 'AWP | Duality (Minimal Wear)': [4.43, 2], 'AWP | Exothermic (Field-Tested)': [3.19, 3], 'AWP | Exothermic (Minimal Wear)': [5.42, 3], 'AWP | Ice Coaled (Field-Tested)': [5.99, 2], 'AWP | The End (Field-Tested)': [10.4, 3], 'AWP | The End (Minimal Wear)': [16.65, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.22, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.09, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.91, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.8, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.84, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.65, 1], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.67, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.9, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.77, 2], 'Glock-18 | Trace Lock (Factory New)': [6.42, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.91, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.61, 1], 'Glock-18 | Water Elemental (Field-Tested)': [17.86, 1], 'M4A1-S | Decimator (Minimal Wear)': [16.75, 2], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.74, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.12, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Minimal Wear)': [21.5, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Party Animal (Minimal Wear)': [14.16, 1], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Solitude (Minimal Wear)': [3.79, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.15, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.64, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.69, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.72, 0], 'M4A4 | Hellish (Field-Tested)': [15.18, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.72, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.18, 0], 'M4A4 | Temukau (Minimal Wear)': [49.05, 1], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.93, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Food Chain (Field-Tested)': [3.37, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.51, 1], 'MP9 | Starlight Protector (Field-Tested)': [62.16, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.71, 1], 'USP-S | Bleeding Edge (Factory New)': [5.91, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.75, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.6, 0], 'USP-S | Printstream (Field-Tested)': [35.21, 2], 'USP-S | Printstream (Minimal Wear)': [56.03, 1], 'USP-S | Royal Guard (Factory New)': [5.41, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.86, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.36, 2], 'USP-S | Ticket to Hell (Factory New)': [2.17, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 3], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AWP | Black Nile (Field-Tested)': [2.25, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.4, 2], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 806.91 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1811
+Blocked Cash = 14.64
+Assets Value = 743.15
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+4.982948303222656e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 351.9s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1826.0900000000001 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1826.0900000000001 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1811
+Blocked Cash = 14.64
+Assets Value = 743.15
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1811.45 | Blocked Cash: 14.64 | Assets: 743.15
+Total Capital: 2569.2400000000002
+{'AK-47 | Aphrodite (Field-Tested)': [13.2, 3], 'AK-47 | Ice Coaled (Minimal Wear)': [6.81, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.63, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.47, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.76, 4], 'AK-47 | Point Disarray (Field-Tested)': [10.9, 2], 'AK-47 | Searing Rage (Field-Tested)': [3.99, 3], 'AK-47 | Searing Rage (Minimal Wear)': [5.77, 2], 'AK-47 | The Oligarch (Field-Tested)': [41.65, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.43, 2], 'AWP | Atheris (Field-Tested)': [3.94, 3], 'AWP | Crakow! (Field-Tested)': [21.36, 3], 'AWP | Duality (Minimal Wear)': [4.38, 2], 'AWP | Exothermic (Field-Tested)': [3.22, 3], 'AWP | Exothermic (Minimal Wear)': [5.31, 2], 'AWP | Hyper Beast (Field-Tested)': [29.92, 1], 'AWP | Mortis (Field-Tested)': [3.26, 1], 'AWP | The End (Field-Tested)': [11.23, 3], 'Desert Eagle | Heat Treated (Field-Tested)': [1.22, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.29, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.92, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.83, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.84, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.65, 0], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.7, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.9, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.77, 2], 'Glock-18 | Shinobu (Field-Tested)': [4.07, 6], 'Glock-18 | Trace Lock (Factory New)': [6.45, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.63, 1], 'M4A1-S | Decimator (Minimal Wear)': [16.75, 2], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.74, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.09, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Minimal Wear)': [21.69, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Party Animal (Minimal Wear)': [14.14, 1], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Stratosphere (Field-Tested)': [3.89, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.69, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.83, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.72, 0], 'M4A4 | Hellish (Field-Tested)': [15.19, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.75, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.18, 0], 'M4A4 | Temukau (Minimal Wear)': [49.24, 1], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.94, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Food Chain (Field-Tested)': [3.46, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.51, 1], 'MP9 | Starlight Protector (Field-Tested)': [61.72, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.71, 1], 'USP-S | Bleeding Edge (Factory New)': [6.04, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.84, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.62, 0], 'USP-S | Printstream (Field-Tested)': [35.21, 2], 'USP-S | Printstream (Minimal Wear)': [56.05, 1], 'USP-S | Royal Guard (Factory New)': [5.41, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.85, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.39, 2], 'USP-S | Ticket to Hell (Factory New)': [2.17, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 2], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AWP | Black Nile (Field-Tested)': [2.23, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 2], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 814.19 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1801
+Blocked Cash = 14.64
+Assets Value = 753.9
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+3.886222839355469e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 421.5s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1815.3400000000001 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1815.3400000000001 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1801
+Blocked Cash = 14.64
+Assets Value = 753.9
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1800.7 | Blocked Cash: 14.64 | Assets: 753.9
+Total Capital: 2569.2400000000002
+{'AK-47 | Aphrodite (Field-Tested)': [13.22, 3], 'AK-47 | Aquamarine Revenge (Field-Tested)': [32.47, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [6.81, 1], 'AK-47 | Midnight Laminate (Factory New)': [14.6, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.8, 4], 'AK-47 | Searing Rage (Field-Tested)': [4.0, 3], 'AK-47 | Searing Rage (Minimal Wear)': [5.76, 2], 'AK-47 | The Oligarch (Field-Tested)': [41.65, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.43, 2], 'AWP | Atheris (Field-Tested)': [3.95, 3], 'AWP | Crakow! (Field-Tested)': [21.21, 3], 'AWP | Duality (Minimal Wear)': [4.38, 2], 'AWP | Exothermic (Field-Tested)': [3.26, 3], 'AWP | Exothermic (Minimal Wear)': [5.46, 2], 'AWP | Mortis (Field-Tested)': [3.27, 1], 'AWP | Printstream (Field-Tested)': [40.87, 1], 'AWP | The End (Field-Tested)': [11.23, 3], 'AWP | The End (Minimal Wear)': [16.95, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.16, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 1], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.51, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.93, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.8, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.84, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.65, 0], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Desert Eagle | Trigger Discipline (Minimal Wear)': [1.46, 1], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.7, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.9, 1], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.78, 1], 'Glock-18 | Shinobu (Field-Tested)': [4.07, 6], 'Glock-18 | Trace Lock (Factory New)': [6.46, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.63, 1], 'M4A1-S | Decimator (Minimal Wear)': [16.75, 2], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.73, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.23, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.72, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.09, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Minimal Wear)': [21.88, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.32, 0], 'M4A1-S | Party Animal (Minimal Wear)': [14.14, 1], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Stratosphere (Field-Tested)': [3.83, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.79, 1], 'M4A4 | Etch Lord (Minimal Wear)': [0.76, 0], 'M4A4 | Full Throttle (Field-Tested)': [38.7, 1], 'M4A4 | Hellish (Field-Tested)': [15.19, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.74, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.18, 0], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.92, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Food Chain (Field-Tested)': [3.43, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.51, 1], 'MP9 | Starlight Protector (Field-Tested)': [61.72, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.71, 1], 'USP-S | Bleeding Edge (Factory New)': [5.97, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.9, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.19, 5], 'USP-S | Printstream (Field-Tested)': [35.21, 2], 'USP-S | Printstream (Minimal Wear)': [55.73, 1], 'USP-S | Royal Guard (Factory New)': [5.41, 0], 'USP-S | Royal Guard (Field-Tested)': [0.51, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.83, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.39, 2], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 1], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AK-47 | Wintergreen (Field-Tested)': [0.51, 4], 'AWP | Black Nile (Field-Tested)': [2.18, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Factory New)': [1.21, 2], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 1], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 881.94 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1794
+Blocked Cash = 14.64
+Assets Value = 760.99
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+4.172325134277344e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 376.6s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1808.25 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1808.25 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1794
+Blocked Cash = 14.64
+Assets Value = 760.99
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1793.61 | Blocked Cash: 14.64 | Assets: 760.99
+Total Capital: 2569.24
+{'AK-47 | Aphrodite (Field-Tested)': [13.24, 3], 'AK-47 | Aphrodite (Minimal Wear)': [24.79, 1], 'AK-47 | Aquamarine Revenge (Field-Tested)': [32.49, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.61, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.48, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.82, 4], 'AK-47 | Neon Rider (Field-Tested)': [40.03, 1], 'AK-47 | Searing Rage (Field-Tested)': [4.0, 3], 'AK-47 | The Oligarch (Field-Tested)': [41.88, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.45, 2], 'AWP | Atheris (Field-Tested)': [3.97, 3], 'AWP | Crakow! (Field-Tested)': [21.32, 3], 'AWP | Duality (Minimal Wear)': [4.38, 2], 'AWP | Exothermic (Field-Tested)': [3.22, 3], 'AWP | Exothermic (Minimal Wear)': [5.48, 2], 'AWP | Green Energy (Minimal Wear)': [14.38, 2], 'AWP | Mortis (Field-Tested)': [3.27, 1], 'AWP | Printstream (Field-Tested)': [40.96, 1], 'AWP | The End (Field-Tested)': [11.23, 3], 'AWP | The End (Minimal Wear)': [16.99, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.19, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 0], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.7, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.93, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.64, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.85, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.56, 0], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'Desert Eagle | Trigger Discipline (Minimal Wear)': [1.46, 0], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.7, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.9, 1], 'Glock-18 | AXIA (Field-Tested)': [19.16, 0], 'Glock-18 | AXIA (Minimal Wear)': [21.56, 0], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.76, 1], 'Glock-18 | Shinobu (Field-Tested)': [4.07, 6], 'Glock-18 | Trace Lock (Factory New)': [6.47, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.58, 0], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.73, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.19, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.74, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.86, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.09, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.08, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.19, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.28, 0], 'M4A1-S | Party Animal (Field-Tested)': [7.06, 2], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Stratosphere (Minimal Wear)': [12.62, 1], 'M4A4 | Etch Lord (Minimal Wear)': [0.76, 0], 'M4A4 | Hellish (Field-Tested)': [14.88, 2], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.18, 0], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'M4A4 | ?? (Dragon King) (Field-Tested)': [12.28, 2], 'MAC-10 | Saib? Oni (Field-Tested)': [0.91, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Food Chain (Field-Tested)': [3.34, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.46, 1], 'MP9 | Starlight Protector (Field-Tested)': [61.81, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.71, 1], 'USP-S | Bleeding Edge (Factory New)': [5.84, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.93, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.19, 5], 'USP-S | Jawbreaker (Minimal Wear)': [5.61, 0], 'USP-S | Printstream (Field-Tested)': [34.94, 2], 'USP-S | Printstream (Minimal Wear)': [55.82, 1], 'USP-S | Royal Guard (Factory New)': [5.43, 0], 'USP-S | Royal Guard (Field-Tested)': [0.47, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.85, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.41, 2], 'USP-S | The Traitor (Field-Tested)': [30.57, 1], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 1], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AK-47 | Wintergreen (Field-Tested)': [0.48, 4], 'AWP | Black Nile (Field-Tested)': [2.18, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Factory New)': [1.22, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 1], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 852.54 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1780
+Blocked Cash = 14.64
+Assets Value = 774.7
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+4.172325134277344e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 354.9s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1794.5400000000002 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1794.5400000000002 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1780
+Blocked Cash = 14.64
+Assets Value = 774.7
+2569.24
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1779.9 | Blocked Cash: 14.64 | Assets: 774.7
+Total Capital: 2569.2400000000002
+{'AK-47 | Aphrodite (Field-Tested)': [13.24, 3], 'AK-47 | Aphrodite (Minimal Wear)': [24.83, 1], 'AK-47 | Aquamarine Revenge (Field-Tested)': [32.49, 2], 'AK-47 | Midnight Laminate (Factory New)': [14.32, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.49, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.84, 3], 'AK-47 | Neon Rider (Field-Tested)': [40.04, 1], 'AK-47 | Searing Rage (Field-Tested)': [4.0, 3], 'AK-47 | Searing Rage (Minimal Wear)': [5.78, 2], 'AK-47 | The Oligarch (Field-Tested)': [42.12, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.45, 2], 'AWP | Atheris (Field-Tested)': [3.97, 3], 'AWP | Crakow! (Field-Tested)': [21.32, 3], 'AWP | Duality (Minimal Wear)': [4.39, 2], 'AWP | Exothermic (Field-Tested)': [3.33, 3], 'AWP | Exothermic (Minimal Wear)': [5.49, 1], 'AWP | Mortis (Field-Tested)': [3.32, 1], 'AWP | Printstream (Field-Tested)': [40.95, 1], 'AWP | The End (Field-Tested)': [11.23, 3], 'Desert Eagle | Heat Treated (Field-Tested)': [1.2, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 0], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.86, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.91, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.62, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.9, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.56, 0], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'FAMAS | Rapid Eye Movement (Field-Tested)': [6.13, 3], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.7, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.94, 1], 'Glock-18 | AXIA (Field-Tested)': [19.05, 0], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.76, 1], 'Glock-18 | Shinobu (Field-Tested)': [4.07, 6], 'Glock-18 | Trace Lock (Factory New)': [6.5, 0], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.58, 0], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.73, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.2, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.77, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.87, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.11, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.07, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.31, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.28, 0], 'M4A1-S | Party Animal (Field-Tested)': [7.06, 2], 'M4A1-S | Party Animal (Minimal Wear)': [14.14, 1], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Stratosphere (Minimal Wear)': [12.68, 1], 'M4A4 | Etch Lord (Minimal Wear)': [0.75, 0], 'M4A4 | Hellish (Field-Tested)': [14.88, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.79, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.17, 0], 'M4A4 | Spider Lily (Field-Tested)': [7.24, 2], 'M4A4 | The Emperor (Field-Tested)': [50.68, 1], 'MAC-10 | Disco Tech (Field-Tested)': [5.07, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.92, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Food Chain (Field-Tested)': [3.34, 2], 'MP9 | Food Chain (Minimal Wear)': [5.62, 1], 'MP9 | Mount Fuji (Field-Tested)': [5.51, 1], 'MP9 | Starlight Protector (Field-Tested)': [61.8, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.71, 1], 'USP-S | Bleeding Edge (Factory New)': [5.95, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.94, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 2], 'USP-S | Jawbreaker (Field-Tested)': [3.18, 5], 'USP-S | Printstream (Minimal Wear)': [55.92, 1], 'USP-S | Royal Guard (Factory New)': [5.45, 0], 'USP-S | Royal Guard (Field-Tested)': [0.47, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.82, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.41, 2], 'USP-S | The Traitor (Field-Tested)': [30.65, 1], 'USP-S | Ticket to Hell (Factory New)': [2.16, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 1], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AK-47 | Wintergreen (Field-Tested)': [0.49, 4], 'AWP | Black Nile (Field-Tested)': [2.19, 2], 'Desert Eagle | Meteorite (Factory New)': [1.3, 0], 'Desert Eagle | Tilted (Factory New)': [1.22, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 0], 'USP-S | Tropical Breeze (Field-Tested)': [0.22, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 840.72 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1768
+Blocked Cash = 21.57
+Assets Value = 780.92
+2570.1
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+4.6253204345703125e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 363.4s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1789.1799999999998 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1789.1799999999998 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1768
+Blocked Cash = 21.57
+Assets Value = 780.92
+2570.1
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1767.61 | Blocked Cash: 21.57 | Assets: 780.92
+Total Capital: 2570.1
+{'AK-47 | Aquamarine Revenge (Field-Tested)': [32.49, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [6.81, 1], 'AK-47 | Midnight Laminate (Factory New)': [14.28, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.49, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.86, 3], 'AK-47 | Neon Rider (Field-Tested)': [40.11, 1], 'AK-47 | Searing Rage (Field-Tested)': [4.02, 3], 'AK-47 | The Oligarch (Field-Tested)': [42.31, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.45, 2], 'AWP | Atheris (Field-Tested)': [3.97, 3], 'AWP | Crakow! (Field-Tested)': [21.32, 3], 'AWP | Duality (Minimal Wear)': [4.39, 2], 'AWP | Exothermic (Field-Tested)': [3.41, 3], 'AWP | Exothermic (Minimal Wear)': [5.5, 0], 'AWP | Green Energy (Minimal Wear)': [14.38, 2], 'AWP | Mortis (Field-Tested)': [3.39, 1], 'AWP | Printstream (Field-Tested)': [40.97, 1], 'AWP | Printstream (Minimal Wear)': [58.93, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.19, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 0], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.96, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.92, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.67, 4], 'Desert Eagle | Mecha Industries (Minimal Wear)': [7.11, 1], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.9, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.56, 0], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'FAMAS | Rapid Eye Movement (Field-Tested)': [6.13, 3], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.7, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.93, 1], 'Glock-18 | AXIA (Field-Tested)': [19.03, 0], 'Glock-18 | AXIA (Minimal Wear)': [21.58, 0], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.76, 1], 'Glock-18 | Shinobu (Field-Tested)': [4.07, 6], 'Glock-18 | Trace Lock (Factory New)': [6.62, 1], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.61, 0], 'Glock-18 | Water Elemental (Minimal Wear)': [18.09, 1], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.73, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.2, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.75, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.85, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.09, 0], 'M4A1-S | Night Terror (Factory New)': [2.0, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.08, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.57, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.28, 0], 'M4A1-S | Party Animal (Field-Tested)': [7.0, 2], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Stratosphere (Minimal Wear)': [12.7, 1], 'M4A4 | Etch Lord (Minimal Wear)': [0.75, 0], 'M4A4 | Full Throttle (Field-Tested)': [38.56, 1], 'M4A4 | Hellish (Field-Tested)': [14.96, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.89, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.16, 0], 'M4A4 | Spider Lily (Field-Tested)': [7.24, 2], 'M4A4 | The Emperor (Field-Tested)': [50.69, 1], 'M4A4 | ?? (Dragon King) (Field-Tested)': [12.26, 2], 'MAC-10 | Disco Tech (Field-Tested)': [5.07, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.92, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [3.27, 1], 'MP9 | Food Chain (Field-Tested)': [3.34, 2], 'MP9 | Food Chain (Minimal Wear)': [5.62, 1], 'MP9 | Mount Fuji (Field-Tested)': [5.57, 1], 'MP9 | Starlight Protector (Field-Tested)': [61.79, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.76, 1], 'USP-S | Bleeding Edge (Factory New)': [5.8, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.96, 2], 'USP-S | Cortex (Field-Tested)': [3.33, 3], 'USP-S | Cortex (Minimal Wear)': [6.04, 1], 'USP-S | Jawbreaker (Field-Tested)': [3.19, 5], 'USP-S | Printstream (Minimal Wear)': [56.2, 1], 'USP-S | Royal Guard (Field-Tested)': [0.47, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.83, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.41, 2], 'USP-S | The Traitor (Field-Tested)': [30.87, 1], 'USP-S | Ticket to Hell (Factory New)': [2.17, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 0], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AK-47 | Wintergreen (Field-Tested)': [0.49, 4], 'AWP | Black Nile (Field-Tested)': [2.21, 2], 'Desert Eagle | Tilted (Factory New)': [1.21, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.37, 0], 'USP-S | Tropical Breeze (Field-Tested)': [0.38, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 831.73 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 10 Python files to run:
+  1. Fees_Script.py
+  2. delete_targets.py
+  3. 6_history_records.py
+  4. 1_Skins.py
+  5. 2_skins_weekly_history.py
+  6. 3_Skins_mwv.py
+  7. 4_skins_history_indicators.py
+  8. 5_skins_offers.py
+  9. 6_history_records.py
+  10. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/10
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/10
+
+============================================================
+Running: delete_targets.py
+============================================================
+[SUCCESS] delete_targets.py completed successfully!
+Output:
+All targets deleted
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1647
+Blocked Cash = 21.57
+Assets Value = 901.88
+2570.1
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/10
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-08-30 23:59:59 
+ Next update will be available on 2026-09-06 23:59:59
+6.794929504394531e-05
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/10
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Updating weekly volumes for 842 skins...
+  25/842 skins (25 with weekly volume)
+  50/842 skins (50 with weekly volume)
+  75/842 skins (75 with weekly volume)
+  100/842 skins (100 with weekly volume)
+  125/842 skins (125 with weekly volume)
+  150/842 skins (150 with weekly volume)
+  175/842 skins (175 with weekly volume)
+  200/842 skins (200 with weekly volume)
+  225/842 skins (225 with weekly volume)
+  250/842 skins (250 with weekly volume)
+  275/842 skins (275 with weekly volume)
+  300/842 skins (300 with weekly volume)
+  325/842 skins (325 with weekly volume)
+  350/842 skins (350 with weekly volume)
+  375/842 skins (375 with weekly volume)
+  400/842 skins (400 with weekly volume)
+  425/842 skins (425 with weekly volume)
+  450/842 skins (450 with weekly volume)
+  475/842 skins (475 with weekly volume)
+  500/842 skins (500 with weekly volume)
+  525/842 skins (525 with weekly volume)
+  550/842 skins (550 with weekly volume)
+  575/842 skins (575 with weekly volume)
+  600/842 skins (600 with weekly volume)
+  625/842 skins (625 with weekly volume)
+  650/842 skins (650 with weekly volume)
+  675/842 skins (675 with weekly volume)
+  700/842 skins (700 with weekly volume)
+  725/842 skins (725 with weekly volume)
+  750/842 skins (747 with weekly volume)
+  775/842 skins (771 with weekly volume)
+  800/842 skins (795 with weekly volume)
+  825/842 skins (820 with weekly volume)
+  842/842 skins (837 with weekly volume)
+Fetch finished in 364.4s
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/10
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1668.22 | Min weekly volume threshold: 30
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/10
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/10
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 1668.22 
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 9/10
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 1647
+Blocked Cash = 21.57
+Assets Value = 901.88
+2570.1
+Archived 0 new items for 08/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 10/10
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1646.65 | Blocked Cash: 21.57 | Assets: 901.88
+Total Capital: 2570.1
+{'AK-47 | Ice Coaled (Minimal Wear)': [6.81, 0], 'AK-47 | Inheritance (Minimal Wear)': [53.19, 0], 'AK-47 | Midnight Laminate (Factory New)': [14.53, 0], 'AK-47 | Midnight Laminate (Field-Tested)': [2.5, 4], 'AK-47 | Midnight Laminate (Minimal Wear)': [6.88, 3], 'AK-47 | Neon Rider (Field-Tested)': [40.19, 1], 'AK-47 | Phantom Disruptor (Field-Tested)': [5.05, 2], 'AK-47 | The Oligarch (Field-Tested)': [42.43, 1], 'AK-47 | The Outsiders (Field-Tested)': [5.42, 2], 'AWP | Atheris (Field-Tested)': [3.97, 3], 'AWP | Duality (Minimal Wear)': [4.38, 2], 'AWP | Exothermic (Field-Tested)': [3.3, 2], 'AWP | Exothermic (Minimal Wear)': [5.5, 0], 'AWP | Mortis (Field-Tested)': [3.39, 1], 'AWP | Printstream (Minimal Wear)': [59.01, 0], 'AWP | The End (Field-Tested)': [11.23, 3], 'Desert Eagle | Crimson Web (Field-Tested)': [9.78, 1], 'Desert Eagle | Heat Treated (Field-Tested)': [1.18, 2], 'Desert Eagle | Heat Treated (Minimal Wear)': [2.58, 0], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [16.9, 3], 'Desert Eagle | Light Rail (Field-Tested)': [0.92, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [4.7, 4], 'Desert Eagle | Mulberry (Field-Tested)': [1.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [6.94, 0], 'Desert Eagle | Serpent Strike (Factory New)': [1.56, 0], 'Desert Eagle | Serpent Strike (Minimal Wear)': [0.62, 0], 'FAMAS | Rapid Eye Movement (Field-Tested)': [6.15, 3], 'Galil AR | Chromatic Aberration (Field-Tested)': [3.7, 1], 'Galil AR | Chromatic Aberration (Minimal Wear)': [5.97, 1], 'Glock-18 | AXIA (Field-Tested)': [19.04, 0], 'Glock-18 | Moonrise (Minimal Wear)': [1.4, 0], 'Glock-18 | Nuclear Garden (Field-Tested)': [1.76, 1], 'Glock-18 | Shinobu (Field-Tested)': [4.07, 6], 'Glock-18 | Trace Lock (Factory New)': [6.74, 1], 'Glock-18 | Trace Lock (Minimal Wear)': [2.88, 0], 'Glock-18 | Umbral Rabbit (Minimal Wear)': [0.63, 0], 'Glock-18 | Vogue (Field-Tested)': [3.26, 4], 'Glock-18 | Water Elemental (Minimal Wear)': [18.14, 0], 'M4A1-S | Emphorosaur-S (Minimal Wear)': [0.73, 1], 'M4A1-S | Glitched Paint (Field-Tested)': [1.2, 1], 'M4A1-S | Glitched Paint (Minimal Wear)': [2.75, 0], 'M4A1-S | Liquidation (Field-Tested)': [1.85, 1], 'M4A1-S | Liquidation (Minimal Wear)': [4.09, 0], 'M4A1-S | Night Terror (Factory New)': [2.01, 0], 'M4A1-S | Nightmare (Field-Tested)': [8.05, 4], 'M4A1-S | Nightmare (Minimal Wear)': [21.78, 1], 'M4A1-S | Nitro (Minimal Wear)': [1.28, 0], 'M4A1-S | Party Animal (Field-Tested)': [6.84, 2], 'M4A1-S | Solitude (Field-Tested)': [1.36, 4], 'M4A1-S | Stratosphere (Field-Tested)': [3.83, 1], 'M4A1-S | Stratosphere (Minimal Wear)': [12.87, 1], 'M4A4 | Desolate Space (Minimal Wear)': [17.75, 0], 'M4A4 | Etch Lord (Minimal Wear)': [0.75, 0], 'M4A4 | Hellish (Field-Tested)': [15.07, 2], 'M4A4 | Neo-Noir (Field-Tested)': [29.91, 1], 'M4A4 | Sheet Lightning (Minimal Wear)': [2.15, 0], 'M4A4 | The Emperor (Field-Tested)': [50.47, 1], 'M4A4 | ?? (Dragon King) (Field-Tested)': [12.27, 2], 'M4A4 | ?? (Dragon King) (Minimal Wear)': [22.18, 1], 'MAC-10 | Disco Tech (Field-Tested)': [5.07, 1], 'MAC-10 | Saib? Oni (Field-Tested)': [0.92, 1], 'MAC-10 | Sakkaku (Field-Tested)': [0.65, 2], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [3.27, 1], 'MP9 | Food Chain (Field-Tested)': [3.35, 2], 'MP9 | Mount Fuji (Field-Tested)': [5.52, 1], 'MP9 | Starlight Protector (Field-Tested)': [61.91, 1], 'P250 | Nevermore (Field-Tested)': [0.93, 1], 'P250 | Nevermore (Minimal Wear)': [1.15, 1], 'SSG 08 | Fever Dream (Field-Tested)': [0.76, 1], 'USP-S | Bleeding Edge (Factory New)': [5.96, 0], 'USP-S | Bleeding Edge (Field-Tested)': [1.23, 1], 'USP-S | Bleeding Edge (Minimal Wear)': [2.98, 1], 'USP-S | Cortex (Minimal Wear)': [6.04, 1], 'USP-S | Jawbreaker (Field-Tested)': [3.17, 5], 'USP-S | Kill Confirmed (Field-Tested)': [61.25, 1], 'USP-S | Printstream (Minimal Wear)': [56.35, 1], 'USP-S | Royal Guard (Factory New)': [5.43, 0], 'USP-S | Royal Guard (Field-Tested)': [0.47, 1], 'USP-S | Royal Guard (Minimal Wear)': [2.88, 0], 'USP-S | Sleeping Potion (Minimal Wear)': [3.38, 2], 'USP-S | The Traitor (Field-Tested)': [30.98, 1], 'USP-S | Ticket to Hell (Factory New)': [2.17, 0], 'USP-S | Ticket to Hell (Minimal Wear)': [0.76, 0], 'AK-47 | Elite Build (Field-Tested)': [1.56, 1], 'AK-47 | Wintergreen (Field-Tested)': [0.5, 4], 'AWP | Black Nile (Field-Tested)': [2.21, 2], 'Desert Eagle | Tilted (Factory New)': [1.21, 0], 'Desert Eagle | Tilted (Minimal Wear)': [0.57, 1], 'M4A4 | Converter (Factory New)': [1.59, 0], 'M4A4 | Naval Shred Camo (Factory New)': [0.25, 2], 'USP-S | Alpine Camo (Factory New)': [1.41, 0], 'USP-S | Tropical Breeze (Field-Tested)': [0.38, 1], 'USP-S | Tropical Breeze (Minimal Wear)': [0.6, 0]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 10
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 828.40 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results

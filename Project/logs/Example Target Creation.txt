@@ -1,0 +1,123 @@
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+297.4773759841919
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Fetching sales history for 495 skins...
+Fetch finished in 276.5s
+Weekly volumes: 480 established of 495 skins fetched
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 314.98 | Min weekly volume threshold: 25
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 314.98 | PTR20 spread: 1.08
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Blocked Cash = 144.42
+Cash = 315
+Assets Value = 2246.41
+All items already exist in archive, nothing to add
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 314.98 | Blocked Cash: 144.42 | Assets: 2246.41
+Total Balance: 2705.81
+{'AWP | Crakow! (Field-Tested)': [26.67, 2], 'AWP | Green Energy (Field-Tested)': [10.61, 6], 'AWP | Green Energy (Minimal Wear)': [21.91, 0], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [18.77, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [9.17, 4], 'M4A1-S | Basilisk (Field-Tested)': [7.6, 7], 'M4A1-S | Basilisk (Minimal Wear)': [11.06, 6], 'M4A4 | Temukau (Minimal Wear)': [57.63, 0], 'M4A4 | Tooth Fairy (Minimal Wear)': [5.44, 8], 'MP9 | Hydra (Field-Tested)': [5.99, 6], 'P250 | Franklin (Factory New)': [7.03, 3], 'USP-S | Royal Guard (Factory New)': [7.28, 5]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 8
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 729.12 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results

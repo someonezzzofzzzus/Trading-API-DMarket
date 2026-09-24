@@ -1,0 +1,132 @@
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 257, in <module>
+    inv_items = get_invetory_items(closed_targets)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 83, in get_invetory_items
+    items = response["Items"]
+KeyError: 'Items'
+Blocked Cash = 144.42
+Cash = 331
+Assets Value = 2230.38
+Archived 1 new items for 06/2026
+Transaction history has been updated
+#--------------------------------------------------------------------------------------#
+
+Data of Inventory was collected at 2026-06-21 22:00:51
+Skipping Souvenir Glock-18 | Green Line (Minimal Wear) - failed to get market offer
+Skipping M4A4 | Polysoup (Minimal Wear) - failed to get market offer
+Selling Offers starting be created on 2026-06-21 22:01:35
+Number of selling offers for creation 95 
+
+Offers been created successfully: 95
+Offers failed to create: 0
+Failed creation: []
+
+Sell Script finished on 2026-06-21 22:01:38
+
+#--------------------------------------------------------------------------------------#
+
+Blocked Cash = 144.42
+Cash = 322
+Assets Value = 2239.38
+All items already exist in archive, nothing to add
+Transaction history has been updated
+#--------------------------------------------------------------------------------------#
+
+Data of Inventory was collected at 2026-06-21 23:00:45
+Skipping Souvenir Glock-18 | Green Line (Minimal Wear) - failed to get market offer
+Skipping M4A4 | Polysoup (Minimal Wear) - failed to get market offer
+Selling Offers starting be created on 2026-06-21 23:00:46
+Number of selling offers for creation 1 
+
+Offers been created successfully: 1
+Offers failed to create: 0
+Failed creation: []
+
+Sell Script finished on 2026-06-21 23:00:46
+
+#--------------------------------------------------------------------------------------#
+

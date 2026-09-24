@@ -1,0 +1,1495 @@
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+298.9920325279236
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[ERROR] 2_skins_weekly_history.py failed with return code -9
+Standard output:
+Fetching sales history for 506 skins...
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 533.12 | Min weekly volume threshold: 20
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 37, in <module>
+    ASSETS_BALANCE = db.get_meta("assets_value",type=float)
+TypeError: get_meta() got an unexpected keyword argument 'type'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 533
+Blocked Cash = 91.59
+Assets Value = 2095.66
+All items already exist in archive, nothing to add
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 533.12 | Blocked Cash: 91.59 | Assets: 2095.66
+Total Balance: 2720.37
+{'AK-47 | Midnight Laminate (Factory New)': [22.13, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.43, 1], 'AWP | Atheris (Field-Tested)': [4.32, 15], 'Desert Eagle | Crimson Web (Field-Tested)': [10.73, 6], 'Desert Eagle | Mulberry (Minimal Wear)': [8.86, 0], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.36, 7], 'M4A1-S | Basilisk (Field-Tested)': [7.7, 7], 'M4A1-S | Player Two (Minimal Wear)': [55.28, 0], 'M4A1-S | Stratosphere (Field-Tested)': [4.62, 9], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [4.61, 6], 'MP9 | Mount Fuji (Minimal Wear)': [9.73, 3]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 692.26 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+304.50626826286316
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[ERROR] 2_skins_weekly_history.py failed with return code -9
+Standard output:
+Fetching sales history for 505 skins...
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 543.28 | Min weekly volume threshold: 20
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 37, in <module>
+    ASSETS_BALANCE = db.get_meta("assets_value",type=float)
+TypeError: get_meta() got an unexpected keyword argument 'type'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 543
+Blocked Cash = 91.59
+Assets Value = 2086.28
+Archived 1 new items for 07/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 543.28 | Blocked Cash: 91.59 | Assets: 2086.28
+Total Balance: 2721.15
+{'AK-47 | Midnight Laminate (Factory New)': [22.13, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.43, 1], 'AWP | Atheris (Field-Tested)': [4.32, 15], 'Desert Eagle | Crimson Web (Field-Tested)': [10.73, 6], 'Desert Eagle | Mulberry (Minimal Wear)': [8.86, 0], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.36, 7], 'M4A1-S | Basilisk (Field-Tested)': [7.7, 7], 'M4A1-S | Player Two (Minimal Wear)': [55.28, 0], 'M4A1-S | Stratosphere (Field-Tested)': [4.62, 9], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [4.61, 6], 'MP9 | Mount Fuji (Minimal Wear)': [9.73, 4]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 518.27 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+287.0906038284302
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[ERROR] 2_skins_weekly_history.py failed with return code -9
+Standard output:
+Fetching sales history for 502 skins...
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 570.83 | Min weekly volume threshold: 20
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 37, in <module>
+    ASSETS_BALANCE = db.get_meta("assets_value",type=float)
+TypeError: get_meta() got an unexpected keyword argument 'type'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 571
+Blocked Cash = 94.04
+Assets Value = 2054.3
+All items already exist in archive, nothing to add
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 570.83 | Blocked Cash: 94.04 | Assets: 2054.3
+Total Balance: 2719.17
+{'AK-47 | Midnight Laminate (Factory New)': [22.13, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.43, 1], 'AWP | Atheris (Field-Tested)': [4.32, 15], 'Desert Eagle | Crimson Web (Field-Tested)': [10.73, 6], 'Desert Eagle | Mulberry (Minimal Wear)': [8.86, 0], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.36, 7], 'M4A1-S | Basilisk (Field-Tested)': [7.7, 7], 'M4A1-S | Player Two (Minimal Wear)': [55.28, 0], 'M4A1-S | Stratosphere (Field-Tested)': [4.62, 9], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [4.61, 6], 'MP9 | Mount Fuji (Minimal Wear)': [9.73, 4]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 506.30 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+282.92666697502136
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[ERROR] 2_skins_weekly_history.py failed with return code -9
+Standard output:
+Fetching sales history for 502 skins...
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 573.1 | Min weekly volume threshold: 20
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 37, in <module>
+    ASSETS_BALANCE = db.get_meta("assets_value",type=float)
+TypeError: get_meta() got an unexpected keyword argument 'type'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 573
+Blocked Cash = 95.83
+Assets Value = 2048.7
+All items already exist in archive, nothing to add
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 573.1 | Blocked Cash: 95.83 | Assets: 2048.7
+Total Balance: 2717.63
+{'AK-47 | Midnight Laminate (Factory New)': [22.13, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.43, 1], 'AWP | Atheris (Field-Tested)': [4.32, 15], 'Desert Eagle | Crimson Web (Field-Tested)': [10.73, 6], 'Desert Eagle | Mulberry (Minimal Wear)': [8.86, 0], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.36, 7], 'M4A1-S | Basilisk (Field-Tested)': [7.7, 7], 'M4A1-S | Player Two (Minimal Wear)': [55.28, 0], 'M4A1-S | Stratosphere (Field-Tested)': [4.62, 9], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [4.61, 6], 'MP9 | Mount Fuji (Minimal Wear)': [9.73, 4]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 572.00 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+298.12475991249084
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[ERROR] 2_skins_weekly_history.py failed with return code -9
+Standard output:
+Fetching sales history for 505 skins...
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 575.38 | Min weekly volume threshold: 20
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 37, in <module>
+    ASSETS_BALANCE = db.get_meta("assets_value",type=float)
+TypeError: get_meta() got an unexpected keyword argument 'type'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 575
+Blocked Cash = 107.8
+Assets Value = 2032.59
+All items already exist in archive, nothing to add
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 575.38 | Blocked Cash: 107.8 | Assets: 2032.59
+Total Balance: 2715.77
+{'AK-47 | Midnight Laminate (Factory New)': [22.13, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.43, 1], 'AWP | Atheris (Field-Tested)': [4.32, 15], 'Desert Eagle | Crimson Web (Field-Tested)': [10.73, 6], 'Desert Eagle | Mulberry (Minimal Wear)': [8.86, 0], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.36, 7], 'M4A1-S | Basilisk (Field-Tested)': [7.7, 7], 'M4A1-S | Player Two (Minimal Wear)': [55.28, 0], 'M4A1-S | Stratosphere (Field-Tested)': [4.62, 9], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [4.61, 6], 'MP9 | Mount Fuji (Minimal Wear)': [9.73, 4]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 549.62 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+297.6467354297638
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-06-28 23:59:59 
+ Next update will be available on 2026-07-05 23:59:59
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 927.66 | Min weekly volume threshold: 10
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 134, in <module>
+    lowest_offer_price, sec_low_offer_price = get_offer_from_market(item,"2")
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 73, in get_offer_from_market
+    offers = json.loads(market_repsonse.text)["objects"]
+KeyError: 'objects'
+
+Standard output:
+Balance: 927.66 
+AK-47 | Aquamarine Revenge (Field-Tested) | PTR spread: 0.04
+AK-47 | Aquamarine Revenge (Minimal Wear) | PTR spread: 0.04
+AK-47 | Asiimov (Field-Tested) | PTR spread: 0.03
+AK-47 | Asiimov (Minimal Wear) | PTR spread: 0.053
+AK-47 | Blue Laminate (Factory New) | PTR spread: 0.177
+AK-47 | Blue Laminate (Field-Tested) | PTR spread: 0.032
+AK-47 | Blue Laminate (Minimal Wear) | PTR spread: 0.002
+AK-47 | Cartel (Field-Tested) | PTR spread: 0.114
+AK-47 | Cartel (Minimal Wear) | PTR spread: 0.038
+AK-47 | Emerald Pinstripe (Field-Tested) | PTR spread: 0.226
+AK-47 | Frontside Misty (Field-Tested) | PTR spread: 0.022
+AK-47 | Frontside Misty (Minimal Wear) | PTR spread: 0.038
+AK-47 | Head Shot (Field-Tested) | PTR spread: 0.045
+AK-47 | Head Shot (Minimal Wear) | PTR spread: 0.053
+AK-47 | Ice Coaled (Factory New) | PTR spread: 0.054
+AK-47 | Ice Coaled (Field-Tested) | PTR spread: -0.147
+AK-47 | Ice Coaled (Minimal Wear) | PTR spread: 0.03
+AK-47 | Inheritance (Field-Tested) | PTR spread: 0.019
+AK-47 | Inheritance (Minimal Wear) | PTR spread: 0.017
+AK-47 | Legion of Anubis (Field-Tested) | PTR spread: 0.053
+AK-47 | Legion of Anubis (Minimal Wear) | PTR spread: 0.017
+AK-47 | Midnight Laminate (Factory New) | PTR spread: 0.065
+AK-47 | Midnight Laminate (Field-Tested) | PTR spread: 0.159
+AK-47 | Midnight Laminate (Minimal Wear) | PTR spread: 0.053
+AK-47 | Neon Rider (Field-Tested) | PTR spread: 0.027
+AK-47 | Nightwish (Field-Tested) | PTR spread: 0.034
+AK-47 | Nightwish (Minimal Wear) | PTR spread: 0.04
+AK-47 | Orbit Mk01 (Field-Tested) | PTR spread: 0.046
+AK-47 | Phantom Disruptor (Field-Tested) | PTR spread: 0.131
+AK-47 | Phantom Disruptor (Minimal Wear) | PTR spread: 0.028
+AK-47 | Point Disarray (Field-Tested) | PTR spread: 0.033
+AK-47 | Point Disarray (Minimal Wear) | PTR spread: 0.067
+AK-47 | Red Laminate (Field-Tested) | PTR spread: 0.049
+AK-47 | Redline (Field-Tested) | PTR spread: -0.0
+AK-47 | Safety Net (Factory New) | PTR spread: 0.121
+AK-47 | Safety Net (Field-Tested) | PTR spread: 0.061
+AK-47 | Searing Rage (Field-Tested) | PTR spread: 0.07
+AK-47 | Searing Rage (Minimal Wear) | PTR spread: 0.058
+AK-47 | Slate (Factory New) | PTR spread: 0.018
+AK-47 | Slate (Field-Tested) | PTR spread: 0.077
+AK-47 | Slate (Minimal Wear) | PTR spread: 0.012
+AK-47 | The Oligarch (Field-Tested) | PTR spread: 0.054
+AK-47 | The Outsiders (Field-Tested) | PTR spread: 0.052
+AK-47 | The Outsiders (Minimal Wear) | PTR spread: 0.071
+AWP | Atheris (Field-Tested) | PTR spread: 0.105
+AWP | Atheris (Minimal Wear) | PTR spread: 0.041
+AWP | Chromatic Aberration (Field-Tested) | PTR spread: 0.04
+AWP | Chromatic Aberration (Minimal Wear) | PTR spread: 0.044
+AWP | Chrome Cannon (Field-Tested) | PTR spread: 0.036
+AWP | Chrome Cannon (Minimal Wear) | PTR spread: 0.048
+AWP | Corticera (Minimal Wear) | PTR spread: 0.076
+AWP | Crakow! (Field-Tested) | PTR spread: 0.036
+AWP | Crakow! (Minimal Wear) | PTR spread: 0.041
+AWP | Duality (Factory New) | PTR spread: 0.054
+AWP | Duality (Field-Tested) | PTR spread: 0.232
+AWP | Duality (Minimal Wear) | PTR spread: 0.017
+AWP | Elite Build (Field-Tested) | PTR spread: 0.041
+AWP | Exoskeleton (Field-Tested) | PTR spread: 0.053
+AWP | Fever Dream (Field-Tested) | PTR spread: 0.051
+AWP | Fever Dream (Minimal Wear) | PTR spread: 0.052
+AWP | Green Energy (Field-Tested) | PTR spread: 0.062
+AWP | Green Energy (Minimal Wear) | PTR spread: 0.043
+AWP | Hyper Beast (Field-Tested) | PTR spread: 0.105
+AWP | Hyper Beast (Minimal Wear) | PTR spread: 0.042
+AWP | Ice Coaled (Field-Tested) | PTR spread: 0.025
+AWP | Ice Coaled (Minimal Wear) | PTR spread: 0.036
+AWP | Mortis (Field-Tested) | PTR spread: 0.103
+AWP | Mortis (Minimal Wear) | PTR spread: 0.038
+AWP | Neo-Noir (Factory New) | PTR spread: 0.048
+AWP | Neo-Noir (Field-Tested) | PTR spread: 0.039
+AWP | Neo-Noir (Minimal Wear) | PTR spread: 0.029
+AWP | PAW (Factory New) | PTR spread: 0.054
+AWP | PAW (Field-Tested) | PTR spread: 0.302
+AWP | PAW (Minimal Wear) | PTR spread: 0.117
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 783
+Blocked Cash = 156.74
+Assets Value = 1758.05
+Archived 2 new items for 07/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 783.47 | Blocked Cash: 156.74 | Assets: 1758.05
+Total Capital: 2698.26
+{'AK-47 | Aquamarine Revenge (Field-Tested)': [37.25, 1], 'AK-47 | Asiimov (Minimal Wear)': [51.87, 1], 'AK-47 | Head Shot (Field-Tested)': [33.11, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [7.43, 1], 'AK-47 | Inheritance (Field-Tested)': [39.73, 1], 'AK-47 | Inheritance (Minimal Wear)': [64.41, 1], 'AK-47 | Legion of Anubis (Field-Tested)': [33.0, 2], 'AK-47 | Midnight Laminate (Factory New)': [21.45, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.66, 2], 'AK-47 | The Oligarch (Field-Tested)': [58.09, 1], 'AK-47 | The Outsiders (Field-Tested)': [6.56, 4], 'AWP | Atheris (Field-Tested)': [4.3, 8], 'AWP | Atheris (Minimal Wear)': [7.98, 2], 'AWP | Chrome Cannon (Minimal Wear)': [36.34, 1], 'AWP | Green Energy (Field-Tested)': [9.58, 7], 'AWP | Hyper Beast (Field-Tested)': [33.47, 2], 'AWP | Ice Coaled (Minimal Wear)': [14.2, 0], 'AWP | Neo-Noir (Factory New)': [52.91, 1], 'AWP | Wildfire (Field-Tested)': [43.77, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [5.14, 9], 'Desert Eagle | Mecha Industries (Minimal Wear)': [7.79, 1], 'Desert Eagle | Mulberry (Minimal Wear)': [8.61, 3], 'Desert Eagle | Printstream (Field-Tested)': [35.57, 1], 'FAMAS | Mecha Industries (Field-Tested)': [30.66, 2], 'FAMAS | Rapid Eye Movement (Field-Tested)': [5.75, 5], 'Galil AR | Chromatic Aberration (Minimal Wear)': [7.0, 1], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.47, 3], 'Glock-18 | Water Elemental (Field-Tested)': [16.77, 3], 'Glock-18 | Water Elemental (Minimal Wear)': [17.51, 2], 'M4A1-S | Basilisk (Field-Tested)': [7.85, 3], 'M4A1-S | Basilisk (Minimal Wear)': [10.31, 3], 'M4A1-S | Black Lotus (Factory New)': [14.52, 3], 'M4A1-S | Black Lotus (Minimal Wear)': [7.38, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.83, 7], 'M4A1-S | Nightmare (Minimal Wear)': [24.35, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.51, 4], 'M4A4 | Desolate Space (Minimal Wear)': [20.6, 3], 'M4A4 | Hellish (Field-Tested)': [28.45, 2], 'M4A4 | Temukau (Minimal Wear)': [57.76, 0], 'M4A4 | The Emperor (Field-Tested)': [51.65, 1], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [5.08, 2], 'MP9 | Food Chain (Minimal Wear)': [6.7, 2], 'MP9 | Hydra (Field-Tested)': [5.68, 3], 'MP9 | Mount Fuji (Minimal Wear)': [9.79, 1], 'USP-S | Cortex (Minimal Wear)': [6.75, 1], 'USP-S | Cyrex (Factory New)': [65.0, 1], 'USP-S | Jawbreaker (Minimal Wear)': [6.21, 1], 'USP-S | Printstream (Minimal Wear)': [59.42, 0], 'USP-S | The Traitor (Field-Tested)': [33.85, 1], 'AWP | Black Nile (Minimal Wear)': [4.96, 0]}
+AK-47 | Aquamarine Revenge (Field-Tested)
+AK-47 | Head Shot (Field-Tested)
+AK-47 | Inheritance (Field-Tested)
+AK-47 | Legion of Anubis (Field-Tested)
+AK-47 | The Oligarch (Field-Tested)
+AK-47 | The Outsiders (Field-Tested)
+AWP | Atheris (Field-Tested)
+AWP | Green Energy (Field-Tested)
+AWP | Hyper Beast (Field-Tested)
+AWP | Wildfire (Field-Tested)
+Desert Eagle | Mecha Industries (Field-Tested)
+Desert Eagle | Printstream (Field-Tested)
+FAMAS | Mecha Industries (Field-Tested)
+FAMAS | Rapid Eye Movement (Field-Tested)
+Glock-18 | Mirror Mosaic (Field-Tested)
+Glock-18 | Water Elemental (Field-Tested)
+M4A1-S | Basilisk (Field-Tested)
+M4A1-S | Nightmare (Field-Tested)
+M4A1-S | Stratosphere (Field-Tested)
+M4A4 | Hellish (Field-Tested)
+M4A4 | The Emperor (Field-Tested)
+MP9 | Hydra (Field-Tested)
+USP-S | The Traitor (Field-Tested)
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 7
+[ERROR] Failed runs: 1
+[INFO] Success rate: 87.5%
+[INFO] Total execution time: 760.35 seconds
+
+[WARNING] 1 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+280.870721578598
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-06-28 23:59:59 
+ Next update will be available on 2026-07-05 23:59:59
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 984.4100000000001 | Min weekly volume threshold: 10
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 134, in <module>
+    lowest_offer_price, sec_low_offer_price = get_offer_from_market(item,"2")
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 73, in get_offer_from_market
+    offers = json.loads(market_repsonse.text)["objects"]
+KeyError: 'objects'
+
+Standard output:
+Balance: 984.4100000000001 
+AK-47 | Aquamarine Revenge (Field-Tested) | PTR spread: 0.04
+AK-47 | Aquamarine Revenge (Minimal Wear) | PTR spread: 0.04
+AK-47 | Asiimov (Field-Tested) | PTR spread: 0.03
+AK-47 | Asiimov (Minimal Wear) | PTR spread: 0.05
+AK-47 | Blue Laminate (Factory New) | PTR spread: 0.098
+AK-47 | Blue Laminate (Field-Tested) | PTR spread: 0.032
+AK-47 | Blue Laminate (Minimal Wear) | PTR spread: 0.002
+AK-47 | Cartel (Field-Tested) | PTR spread: 0.115
+AK-47 | Cartel (Minimal Wear) | PTR spread: 0.038
+AK-47 | Emerald Pinstripe (Field-Tested) | PTR spread: 0.245
+AK-47 | Frontside Misty (Field-Tested) | PTR spread: 0.022
+AK-47 | Frontside Misty (Minimal Wear) | PTR spread: 0.038
+AK-47 | Head Shot (Field-Tested) | PTR spread: 0.045
+AK-47 | Head Shot (Minimal Wear) | PTR spread: 0.053
+AK-47 | Ice Coaled (Factory New) | PTR spread: 0.054
+AK-47 | Ice Coaled (Field-Tested) | PTR spread: -0.139
+AK-47 | Ice Coaled (Minimal Wear) | PTR spread: 0.025
+AK-47 | Inheritance (Field-Tested) | PTR spread: 0.023
+AK-47 | Inheritance (Minimal Wear) | PTR spread: 0.017
+AK-47 | Legion of Anubis (Field-Tested) | PTR spread: 0.045
+AK-47 | Legion of Anubis (Minimal Wear) | PTR spread: 0.018
+AK-47 | Midnight Laminate (Factory New) | PTR spread: 0.069
+AK-47 | Midnight Laminate (Field-Tested) | PTR spread: 0.155
+AK-47 | Midnight Laminate (Minimal Wear) | PTR spread: 0.085
+AK-47 | Neon Rider (Field-Tested) | PTR spread: 0.027
+AK-47 | Nightwish (Field-Tested) | PTR spread: 0.034
+AK-47 | Nightwish (Minimal Wear) | PTR spread: 0.04
+AK-47 | Orbit Mk01 (Field-Tested) | PTR spread: 0.061
+AK-47 | Phantom Disruptor (Field-Tested) | PTR spread: 0.133
+AK-47 | Phantom Disruptor (Minimal Wear) | PTR spread: 0.028
+AK-47 | Point Disarray (Field-Tested) | PTR spread: 0.033
+AK-47 | Point Disarray (Minimal Wear) | PTR spread: 0.068
+AK-47 | Red Laminate (Field-Tested) | PTR spread: 0.047
+AK-47 | Redline (Field-Tested) | PTR spread: -0.0
+AK-47 | Safety Net (Factory New) | PTR spread: 0.114
+AK-47 | Safety Net (Field-Tested) | PTR spread: 0.081
+AK-47 | Searing Rage (Field-Tested) | PTR spread: 0.068
+AK-47 | Searing Rage (Minimal Wear) | PTR spread: 0.058
+AK-47 | Slate (Factory New) | PTR spread: 0.018
+AK-47 | Slate (Field-Tested) | PTR spread: 0.071
+AK-47 | Slate (Minimal Wear) | PTR spread: 0.01
+AK-47 | The Oligarch (Field-Tested) | PTR spread: 0.055
+AK-47 | The Outsiders (Field-Tested) | PTR spread: 0.064
+AK-47 | The Outsiders (Minimal Wear) | PTR spread: 0.112
+AWP | Atheris (Field-Tested) | PTR spread: 0.105
+AWP | Atheris (Minimal Wear) | PTR spread: 0.037
+AWP | Chromatic Aberration (Field-Tested) | PTR spread: 0.042
+AWP | Chromatic Aberration (Minimal Wear) | PTR spread: 0.044
+AWP | Chrome Cannon (Field-Tested) | PTR spread: 0.035
+AWP | Chrome Cannon (Minimal Wear) | PTR spread: 0.048
+AWP | Corticera (Minimal Wear) | PTR spread: 0.076
+AWP | Crakow! (Field-Tested) | PTR spread: 0.034
+AWP | Crakow! (Minimal Wear) | PTR spread: 0.052
+AWP | Duality (Factory New) | PTR spread: 0.052
+AWP | Duality (Field-Tested) | PTR spread: 0.232
+AWP | Duality (Minimal Wear) | PTR spread: 0.019
+AWP | Elite Build (Field-Tested) | PTR spread: 0.036
+AWP | Exoskeleton (Field-Tested) | PTR spread: 0.053
+AWP | Fever Dream (Field-Tested) | PTR spread: 0.051
+AWP | Fever Dream (Minimal Wear) | PTR spread: 0.052
+AWP | Green Energy (Field-Tested) | PTR spread: 0.064
+AWP | Green Energy (Minimal Wear) | PTR spread: 0.043
+AWP | Hyper Beast (Field-Tested) | PTR spread: 0.104
+AWP | Hyper Beast (Minimal Wear) | PTR spread: 0.043
+AWP | Ice Coaled (Field-Tested) | PTR spread: 0.025
+AWP | Ice Coaled (Minimal Wear) | PTR spread: 0.036
+AWP | Mortis (Field-Tested) | PTR spread: 0.106
+AWP | Mortis (Minimal Wear) | PTR spread: 0.04
+AWP | Neo-Noir (Factory New) | PTR spread: 0.048
+AWP | Neo-Noir (Field-Tested) | PTR spread: 0.038
+AWP | Neo-Noir (Minimal Wear) | PTR spread: 0.029
+AWP | PAW (Factory New) | PTR spread: 0.051
+AWP | PAW (Field-Tested) | PTR spread: 0.302
+AWP | PAW (Minimal Wear) | PTR spread: 0.114
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Cash = 811
+Blocked Cash = 192.06
+Assets Value = 1689.24
+Archived 3 new items for 07/2026
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 811.4 | Blocked Cash: 192.06 | Assets: 1689.24
+Total Capital: 2692.7
+{'AK-47 | Aquamarine Revenge (Field-Tested)': [37.25, 1], 'AK-47 | Asiimov (Minimal Wear)': [51.87, 1], 'AK-47 | Head Shot (Field-Tested)': [33.11, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [7.43, 1], 'AK-47 | Inheritance (Field-Tested)': [39.73, 1], 'AK-47 | Inheritance (Minimal Wear)': [64.41, 1], 'AK-47 | Legion of Anubis (Field-Tested)': [33.0, 2], 'AK-47 | Midnight Laminate (Factory New)': [21.45, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.66, 1], 'AK-47 | The Oligarch (Field-Tested)': [58.09, 1], 'AK-47 | The Outsiders (Field-Tested)': [6.56, 4], 'AWP | Atheris (Field-Tested)': [4.3, 8], 'AWP | Atheris (Minimal Wear)': [7.98, 2], 'AWP | Chrome Cannon (Minimal Wear)': [36.34, 1], 'AWP | Green Energy (Field-Tested)': [9.58, 7], 'AWP | Hyper Beast (Field-Tested)': [33.47, 2], 'AWP | Ice Coaled (Minimal Wear)': [14.2, 0], 'AWP | Neo-Noir (Factory New)': [52.91, 1], 'AWP | Wildfire (Field-Tested)': [43.77, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [5.14, 9], 'Desert Eagle | Mecha Industries (Minimal Wear)': [7.79, 1], 'Desert Eagle | Mulberry (Minimal Wear)': [8.61, 3], 'Desert Eagle | Printstream (Field-Tested)': [35.57, 1], 'FAMAS | Mecha Industries (Field-Tested)': [30.66, 2], 'FAMAS | Rapid Eye Movement (Field-Tested)': [5.75, 5], 'Galil AR | Chromatic Aberration (Minimal Wear)': [7.0, 1], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.47, 3], 'Glock-18 | Water Elemental (Field-Tested)': [16.77, 3], 'Glock-18 | Water Elemental (Minimal Wear)': [17.51, 3], 'M4A1-S | Basilisk (Field-Tested)': [7.85, 3], 'M4A1-S | Basilisk (Minimal Wear)': [10.31, 3], 'M4A1-S | Black Lotus (Factory New)': [14.52, 3], 'M4A1-S | Black Lotus (Minimal Wear)': [7.38, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.83, 7], 'M4A1-S | Nightmare (Minimal Wear)': [24.35, 1], 'M4A1-S | Stratosphere (Field-Tested)': [4.51, 4], 'M4A4 | Desolate Space (Minimal Wear)': [20.6, 3], 'M4A4 | Hellish (Field-Tested)': [28.45, 2], 'M4A4 | Temukau (Minimal Wear)': [57.76, 0], 'M4A4 | The Emperor (Field-Tested)': [51.65, 1], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [5.08, 2], 'MP9 | Food Chain (Minimal Wear)': [6.7, 2], 'MP9 | Hydra (Field-Tested)': [5.68, 3], 'MP9 | Mount Fuji (Minimal Wear)': [9.79, 1], 'USP-S | Cortex (Minimal Wear)': [6.75, 1], 'USP-S | Cyrex (Factory New)': [65.0, 1], 'USP-S | Jawbreaker (Minimal Wear)': [6.21, 4], 'USP-S | Printstream (Minimal Wear)': [59.42, 0], 'USP-S | The Traitor (Field-Tested)': [33.85, 1], 'AWP | Black Nile (Minimal Wear)': [4.96, 0]}
+AK-47 | Aquamarine Revenge (Field-Tested)
+AK-47 | Head Shot (Field-Tested)
+AK-47 | Inheritance (Field-Tested)
+AK-47 | Legion of Anubis (Field-Tested)
+AK-47 | The Oligarch (Field-Tested)
+AK-47 | The Outsiders (Field-Tested)
+AWP | Atheris (Field-Tested)
+AWP | Green Energy (Field-Tested)
+AWP | Hyper Beast (Field-Tested)
+AWP | Wildfire (Field-Tested)
+Desert Eagle | Mecha Industries (Field-Tested)
+Desert Eagle | Printstream (Field-Tested)
+FAMAS | Mecha Industries (Field-Tested)
+FAMAS | Rapid Eye Movement (Field-Tested)
+Glock-18 | Mirror Mosaic (Field-Tested)
+Glock-18 | Water Elemental (Field-Tested)
+M4A1-S | Basilisk (Field-Tested)
+M4A1-S | Nightmare (Field-Tested)
+M4A1-S | Stratosphere (Field-Tested)
+M4A4 | Hellish (Field-Tested)
+M4A4 | The Emperor (Field-Tested)
+MP9 | Hydra (Field-Tested)
+USP-S | The Traitor (Field-Tested)
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 7
+[ERROR] Failed runs: 1
+[INFO] Success rate: 87.5%
+[INFO] Total execution time: 732.57 seconds
+
+[WARNING] 1 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+283.7249665260315
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-06-28 23:59:59 
+ Next update will be available on 2026-07-05 23:59:59
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1226.14 | Min weekly volume threshold: 10
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 134, in <module>
+    lowest_offer_price, sec_low_offer_price = get_offer_from_market(item,"2")
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 73, in get_offer_from_market
+    offers = json.loads(market_repsonse.text)["objects"]
+KeyError: 'objects'
+
+Standard output:
+Balance: 1226.14 
+AK-47 | Aquamarine Revenge (Field-Tested) | PTR spread: 0.043
+AK-47 | Aquamarine Revenge (Minimal Wear) | PTR spread: 0.04
+AK-47 | Asiimov (Field-Tested) | PTR spread: 0.03
+AK-47 | Asiimov (Minimal Wear) | PTR spread: 0.05
+AK-47 | Blue Laminate (Factory New) | PTR spread: 0.182
+AK-47 | Blue Laminate (Field-Tested) | PTR spread: 0.032
+AK-47 | Blue Laminate (Minimal Wear) | PTR spread: 0.006
+AK-47 | Cartel (Field-Tested) | PTR spread: 0.114
+AK-47 | Cartel (Minimal Wear) | PTR spread: 0.038
+AK-47 | Emerald Pinstripe (Field-Tested) | PTR spread: 0.19
+AK-47 | Frontside Misty (Field-Tested) | PTR spread: 0.023
+AK-47 | Frontside Misty (Minimal Wear) | PTR spread: 0.038
+AK-47 | Head Shot (Field-Tested) | PTR spread: 0.045
+AK-47 | Head Shot (Minimal Wear) | PTR spread: 0.046
+AK-47 | Ice Coaled (Factory New) | PTR spread: 0.054
+AK-47 | Ice Coaled (Field-Tested) | PTR spread: -0.139
+AK-47 | Ice Coaled (Minimal Wear) | PTR spread: 0.025
+AK-47 | Inheritance (Field-Tested) | PTR spread: 0.022
+AK-47 | Inheritance (Minimal Wear) | PTR spread: 0.025
+AK-47 | Legion of Anubis (Field-Tested) | PTR spread: 0.045
+AK-47 | Legion of Anubis (Minimal Wear) | PTR spread: 0.024
+AK-47 | Midnight Laminate (Factory New) | PTR spread: 0.069
+AK-47 | Midnight Laminate (Field-Tested) | PTR spread: 0.159
+AK-47 | Midnight Laminate (Minimal Wear) | PTR spread: 0.068
+AK-47 | Neon Rider (Field-Tested) | PTR spread: 0.027
+AK-47 | Nightwish (Field-Tested) | PTR spread: 0.034
+AK-47 | Nightwish (Minimal Wear) | PTR spread: 0.04
+AK-47 | Orbit Mk01 (Field-Tested) | PTR spread: 0.056
+AK-47 | Phantom Disruptor (Field-Tested) | PTR spread: 0.135
+AK-47 | Phantom Disruptor (Minimal Wear) | PTR spread: 0.025
+AK-47 | Point Disarray (Field-Tested) | PTR spread: 0.037
+AK-47 | Point Disarray (Minimal Wear) | PTR spread: 0.095
+AK-47 | Red Laminate (Field-Tested) | PTR spread: 0.045
+AK-47 | Redline (Field-Tested) | PTR spread: -0.0
+AK-47 | Safety Net (Factory New) | PTR spread: 0.108
+AK-47 | Safety Net (Field-Tested) | PTR spread: 0.117
+AK-47 | Searing Rage (Field-Tested) | PTR spread: 0.068
+AK-47 | Searing Rage (Minimal Wear) | PTR spread: 0.051
+AK-47 | Slate (Factory New) | PTR spread: 0.018
+AK-47 | Slate (Field-Tested) | PTR spread: 0.074
+AK-47 | Slate (Minimal Wear) | PTR spread: 0.012
+AK-47 | The Oligarch (Field-Tested) | PTR spread: 0.055
+AK-47 | The Outsiders (Field-Tested) | PTR spread: 0.036
+AK-47 | The Outsiders (Minimal Wear) | PTR spread: 0.109
+AWP | Atheris (Field-Tested) | PTR spread: 0.105
+AWP | Atheris (Minimal Wear) | PTR spread: 0.033
+AWP | Chromatic Aberration (Field-Tested) | PTR spread: 0.035
+AWP | Chromatic Aberration (Minimal Wear) | PTR spread: 0.044
+AWP | Chrome Cannon (Field-Tested) | PTR spread: 0.05
+AWP | Chrome Cannon (Minimal Wear) | PTR spread: 0.091
+AWP | Corticera (Minimal Wear) | PTR spread: 0.076
+AWP | Crakow! (Field-Tested) | PTR spread: 0.051
+AWP | Crakow! (Minimal Wear) | PTR spread: 0.041
+AWP | Duality (Factory New) | PTR spread: 0.052
+AWP | Duality (Field-Tested) | PTR spread: 0.232
+AWP | Duality (Minimal Wear) | PTR spread: 0.013
+AWP | Elite Build (Field-Tested) | PTR spread: 0.034
+AWP | Exoskeleton (Field-Tested) | PTR spread: 0.053
+AWP | Fever Dream (Field-Tested) | PTR spread: 0.051
+AWP | Fever Dream (Minimal Wear) | PTR spread: 0.055
+AWP | Green Energy (Field-Tested) | PTR spread: 0.055
+AWP | Green Energy (Minimal Wear) | PTR spread: 0.045
+AWP | Hyper Beast (Field-Tested) | PTR spread: 0.106
+AWP | Hyper Beast (Minimal Wear) | PTR spread: 0.044
+AWP | Ice Coaled (Field-Tested) | PTR spread: 0.025
+AWP | Ice Coaled (Minimal Wear) | PTR spread: 0.057
+AWP | Mortis (Field-Tested) | PTR spread: 0.148
+AWP | Mortis (Minimal Wear) | PTR spread: 0.038
+AWP | Neo-Noir (Factory New) | PTR spread: 0.055
+AWP | Neo-Noir (Field-Tested) | PTR spread: 0.036
+AWP | Neo-Noir (Minimal Wear) | PTR spread: 0.054
+AWP | PAW (Factory New) | PTR spread: 0.048
+AWP | PAW (Field-Tested) | PTR spread: 0.234
+AWP | PAW (Minimal Wear) | PTR spread: 0.114
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[ERROR] 6_history_records.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 338, in <module>
+    ptr_n_price = get_offer_from_market(target["Title"], ptr)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 264, in get_offer_from_market
+    offers = json.loads(market_repsonse.text)["objects"]
+KeyError: 'objects'
+
+Standard output:
+Cash = 1021
+Blocked Cash = 220.38
+Assets Value = 1439.18
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 1020.62 | Blocked Cash: 210.69 | Assets: 1454.51
+Total Capital: 2685.8199999999997
+{'AK-47 | Aquamarine Revenge (Field-Tested)': [37.25, 1], 'AK-47 | Asiimov (Minimal Wear)': [51.87, 1], 'AK-47 | Head Shot (Field-Tested)': [33.11, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [7.43, 1], 'AK-47 | Inheritance (Field-Tested)': [39.73, 1], 'AK-47 | Inheritance (Minimal Wear)': [64.41, 1], 'AK-47 | Legion of Anubis (Field-Tested)': [33.0, 1], 'AK-47 | Midnight Laminate (Factory New)': [21.45, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.66, 2], 'AK-47 | The Oligarch (Field-Tested)': [58.09, 1], 'AK-47 | The Outsiders (Field-Tested)': [6.56, 4], 'AWP | Atheris (Field-Tested)': [4.3, 8], 'AWP | Atheris (Minimal Wear)': [7.98, 2], 'AWP | Chrome Cannon (Minimal Wear)': [36.34, 1], 'AWP | Green Energy (Field-Tested)': [9.58, 7], 'AWP | Hyper Beast (Field-Tested)': [33.47, 2], 'AWP | Ice Coaled (Minimal Wear)': [14.2, 3], 'AWP | Neo-Noir (Factory New)': [52.91, 1], 'AWP | Wildfire (Field-Tested)': [43.77, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [5.14, 9], 'Desert Eagle | Mecha Industries (Minimal Wear)': [7.79, 0], 'Desert Eagle | Mulberry (Minimal Wear)': [8.61, 4], 'Desert Eagle | Printstream (Field-Tested)': [35.57, 1], 'FAMAS | Mecha Industries (Field-Tested)': [30.66, 2], 'FAMAS | Rapid Eye Movement (Field-Tested)': [5.75, 5], 'Galil AR | Chromatic Aberration (Minimal Wear)': [7.0, 1], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.47, 3], 'Glock-18 | Water Elemental (Field-Tested)': [16.77, 2], 'Glock-18 | Water Elemental (Minimal Wear)': [17.51, 3], 'M4A1-S | Basilisk (Field-Tested)': [7.85, 3], 'M4A1-S | Basilisk (Minimal Wear)': [10.31, 3], 'M4A1-S | Black Lotus (Factory New)': [14.52, 3], 'M4A1-S | Black Lotus (Minimal Wear)': [7.38, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.83, 7], 'M4A1-S | Nightmare (Minimal Wear)': [24.35, 2], 'M4A1-S | Stratosphere (Field-Tested)': [4.51, 4], 'M4A4 | Desolate Space (Minimal Wear)': [20.6, 3], 'M4A4 | Hellish (Field-Tested)': [28.45, 2], 'M4A4 | Temukau (Minimal Wear)': [57.76, 0], 'M4A4 | The Emperor (Field-Tested)': [51.65, 1], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [5.08, 2], 'MP9 | Food Chain (Minimal Wear)': [6.7, 2], 'MP9 | Hydra (Field-Tested)': [5.68, 3], 'MP9 | Mount Fuji (Minimal Wear)': [9.79, 0], 'USP-S | Cortex (Minimal Wear)': [6.75, 1], 'USP-S | Cyrex (Factory New)': [65.0, 1], 'USP-S | Jawbreaker (Minimal Wear)': [6.21, 4], 'USP-S | Printstream (Minimal Wear)': [59.42, 0], 'USP-S | The Traitor (Field-Tested)': [33.85, 1], 'AWP | Black Nile (Minimal Wear)': [4.96, 1]}
+AK-47 | Aquamarine Revenge (Field-Tested)
+AK-47 | Head Shot (Field-Tested)
+AK-47 | Inheritance (Field-Tested)
+AK-47 | Legion of Anubis (Field-Tested)
+AK-47 | The Oligarch (Field-Tested)
+AK-47 | The Outsiders (Field-Tested)
+AWP | Atheris (Field-Tested)
+AWP | Green Energy (Field-Tested)
+AWP | Hyper Beast (Field-Tested)
+AWP | Wildfire (Field-Tested)
+Desert Eagle | Mecha Industries (Field-Tested)
+Desert Eagle | Printstream (Field-Tested)
+FAMAS | Mecha Industries (Field-Tested)
+FAMAS | Rapid Eye Movement (Field-Tested)
+Glock-18 | Mirror Mosaic (Field-Tested)
+Glock-18 | Water Elemental (Field-Tested)
+M4A1-S | Basilisk (Field-Tested)
+M4A1-S | Nightmare (Field-Tested)
+M4A1-S | Stratosphere (Field-Tested)
+M4A4 | Hellish (Field-Tested)
+M4A4 | The Emperor (Field-Tested)
+MP9 | Hydra (Field-Tested)
+USP-S | The Traitor (Field-Tested)
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 677.16 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+292.781409740448
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Skipping script because it was last updated on 2026-06-28 23:59:59 
+ Next update will be available on 2026-07-05 23:59:59
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 1221.18 | Min weekly volume threshold: 10
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 134, in <module>
+    lowest_offer_price, sec_low_offer_price = get_offer_from_market(item,"2")
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 73, in get_offer_from_market
+    offers = json.loads(market_repsonse.text)["objects"]
+KeyError: 'objects'
+
+Standard output:
+Balance: 1221.18 
+AK-47 | Aquamarine Revenge (Field-Tested) | PTR spread: 0.036
+AK-47 | Aquamarine Revenge (Minimal Wear) | PTR spread: 0.04
+AK-47 | Asiimov (Field-Tested) | PTR spread: 0.029
+AK-47 | Asiimov (Minimal Wear) | PTR spread: 0.051
+AK-47 | Blue Laminate (Factory New) | PTR spread: 0.179
+AK-47 | Blue Laminate (Field-Tested) | PTR spread: 0.032
+AK-47 | Blue Laminate (Minimal Wear) | PTR spread: 0.006
+AK-47 | Cartel (Field-Tested) | PTR spread: 0.111
+AK-47 | Cartel (Minimal Wear) | PTR spread: 0.038
+AK-47 | Emerald Pinstripe (Field-Tested) | PTR spread: 0.148
+AK-47 | Frontside Misty (Field-Tested) | PTR spread: 0.022
+AK-47 | Frontside Misty (Minimal Wear) | PTR spread: 0.038
+AK-47 | Head Shot (Field-Tested) | PTR spread: 0.03
+AK-47 | Head Shot (Minimal Wear) | PTR spread: 0.043
+AK-47 | Ice Coaled (Factory New) | PTR spread: 0.054
+AK-47 | Ice Coaled (Field-Tested) | PTR spread: -0.139
+AK-47 | Ice Coaled (Minimal Wear) | PTR spread: 0.025
+AK-47 | Inheritance (Field-Tested) | PTR spread: 0.025
+AK-47 | Inheritance (Minimal Wear) | PTR spread: 0.024
+AK-47 | Legion of Anubis (Field-Tested) | PTR spread: 0.045
+AK-47 | Legion of Anubis (Minimal Wear) | PTR spread: 0.029
+AK-47 | Midnight Laminate (Factory New) | PTR spread: 0.07
+AK-47 | Midnight Laminate (Field-Tested) | PTR spread: 0.159
+AK-47 | Midnight Laminate (Minimal Wear) | PTR spread: 0.063
+AK-47 | Neon Rider (Field-Tested) | PTR spread: 0.027
+AK-47 | Nightwish (Field-Tested) | PTR spread: 0.034
+AK-47 | Nightwish (Minimal Wear) | PTR spread: 0.034
+AK-47 | Orbit Mk01 (Field-Tested) | PTR spread: 0.047
+AK-47 | Phantom Disruptor (Field-Tested) | PTR spread: 0.135
+AK-47 | Phantom Disruptor (Minimal Wear) | PTR spread: 0.028
+AK-47 | Point Disarray (Field-Tested) | PTR spread: 0.032
+AK-47 | Point Disarray (Minimal Wear) | PTR spread: 0.089
+AK-47 | Red Laminate (Field-Tested) | PTR spread: 0.045
+AK-47 | Redline (Field-Tested) | PTR spread: -0.0
+AK-47 | Safety Net (Factory New) | PTR spread: 0.105
+AK-47 | Safety Net (Field-Tested) | PTR spread: 0.129
+AK-47 | Searing Rage (Field-Tested) | PTR spread: 0.068
+AK-47 | Searing Rage (Minimal Wear) | PTR spread: 0.052
+AK-47 | Slate (Factory New) | PTR spread: 0.017
+AK-47 | Slate (Field-Tested) | PTR spread: 0.108
+AK-47 | Slate (Minimal Wear) | PTR spread: 0.012
+AK-47 | The Oligarch (Field-Tested) | PTR spread: 0.053
+AK-47 | The Outsiders (Field-Tested) | PTR spread: 0.027
+AK-47 | The Outsiders (Minimal Wear) | PTR spread: 0.106
+AWP | Atheris (Field-Tested) | PTR spread: 0.105
+AWP | Atheris (Minimal Wear) | PTR spread: 0.035
+AWP | Chromatic Aberration (Field-Tested) | PTR spread: 0.029
+AWP | Chromatic Aberration (Minimal Wear) | PTR spread: 0.044
+AWP | Chrome Cannon (Field-Tested) | PTR spread: 0.045
+AWP | Chrome Cannon (Minimal Wear) | PTR spread: 0.094
+AWP | Corticera (Minimal Wear) | PTR spread: 0.076
+AWP | Crakow! (Field-Tested) | PTR spread: 0.051
+AWP | Crakow! (Minimal Wear) | PTR spread: 0.052
+AWP | Duality (Factory New) | PTR spread: 0.052
+AWP | Duality (Field-Tested) | PTR spread: 0.232
+AWP | Duality (Minimal Wear) | PTR spread: 0.033
+AWP | Elite Build (Field-Tested) | PTR spread: 0.033
+AWP | Exoskeleton (Field-Tested) | PTR spread: 0.053
+AWP | Fever Dream (Field-Tested) | PTR spread: 0.052
+AWP | Fever Dream (Minimal Wear) | PTR spread: 0.052
+AWP | Green Energy (Field-Tested) | PTR spread: 0.065
+AWP | Green Energy (Minimal Wear) | PTR spread: 0.045
+AWP | Hyper Beast (Field-Tested) | PTR spread: 0.105
+AWP | Hyper Beast (Minimal Wear) | PTR spread: 0.041
+AWP | Ice Coaled (Field-Tested) | PTR spread: 0.025
+AWP | Ice Coaled (Minimal Wear) | PTR spread: 0.057
+AWP | Mortis (Field-Tested) | PTR spread: 0.155
+AWP | Mortis (Minimal Wear) | PTR spread: 0.038
+AWP | Neo-Noir (Factory New) | PTR spread: 0.055
+AWP | Neo-Noir (Field-Tested) | PTR spread: 0.035
+AWP | Neo-Noir (Minimal Wear) | PTR spread: 0.056
+AWP | PAW (Factory New) | PTR spread: 0.046
+AWP | PAW (Field-Tested) | PTR spread: 0.234
+AWP | PAW (Minimal Wear) | PTR spread: 0.114
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[ERROR] 6_history_records.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 338, in <module>
+    ptr_n_price = get_offer_from_market(target["Title"], ptr)
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 264, in get_offer_from_market
+    offers = json.loads(market_repsonse.text)["objects"]
+KeyError: 'objects'
+
+Standard output:
+Cash = 989
+Blocked Cash = 232.66
+Assets Value = 1445.08
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 988.52 | Blocked Cash: 232.66 | Assets: 1445.08
+Total Capital: 2666.26
+{'AK-47 | Aquamarine Revenge (Field-Tested)': [37.25, 1], 'AK-47 | Head Shot (Field-Tested)': [33.11, 2], 'AK-47 | Ice Coaled (Minimal Wear)': [7.43, 1], 'AK-47 | Inheritance (Field-Tested)': [39.73, 1], 'AK-47 | Inheritance (Minimal Wear)': [64.41, 1], 'AK-47 | Legion of Anubis (Field-Tested)': [33.0, 1], 'AK-47 | Midnight Laminate (Factory New)': [21.45, 0], 'AK-47 | Midnight Laminate (Minimal Wear)': [9.66, 1], 'AK-47 | The Oligarch (Field-Tested)': [58.09, 1], 'AK-47 | The Outsiders (Field-Tested)': [6.56, 4], 'AWP | Atheris (Field-Tested)': [4.3, 8], 'AWP | Atheris (Minimal Wear)': [7.98, 2], 'AWP | Chrome Cannon (Minimal Wear)': [36.34, 1], 'AWP | Green Energy (Field-Tested)': [9.58, 6], 'AWP | Hyper Beast (Field-Tested)': [33.47, 1], 'AWP | Ice Coaled (Minimal Wear)': [14.2, 3], 'AWP | Neo-Noir (Factory New)': [52.91, 1], 'AWP | Wildfire (Field-Tested)': [43.77, 1], 'Desert Eagle | Mecha Industries (Field-Tested)': [5.14, 9], 'Desert Eagle | Mecha Industries (Minimal Wear)': [7.79, 0], 'Desert Eagle | Mulberry (Minimal Wear)': [8.61, 4], 'Desert Eagle | Printstream (Field-Tested)': [35.57, 1], 'FAMAS | Mecha Industries (Field-Tested)': [30.66, 2], 'FAMAS | Rapid Eye Movement (Field-Tested)': [5.75, 5], 'Galil AR | Chromatic Aberration (Minimal Wear)': [7.0, 1], 'Glock-18 | Mirror Mosaic (Field-Tested)': [5.47, 3], 'Glock-18 | Water Elemental (Field-Tested)': [16.77, 2], 'Glock-18 | Water Elemental (Minimal Wear)': [17.51, 3], 'M4A1-S | Basilisk (Field-Tested)': [7.85, 3], 'M4A1-S | Basilisk (Minimal Wear)': [10.31, 3], 'M4A1-S | Black Lotus (Factory New)': [14.52, 3], 'M4A1-S | Black Lotus (Minimal Wear)': [7.38, 1], 'M4A1-S | Nightmare (Field-Tested)': [8.83, 7], 'M4A1-S | Nightmare (Minimal Wear)': [24.35, 2], 'M4A1-S | Stratosphere (Field-Tested)': [4.51, 4], 'M4A4 | Desolate Space (Minimal Wear)': [20.6, 3], 'M4A4 | Hellish (Field-Tested)': [28.45, 2], 'M4A4 | Temukau (Minimal Wear)': [57.76, 0], 'M4A4 | The Emperor (Field-Tested)': [51.65, 1], 'MP9 | Arctic Tri-Tone (Minimal Wear)': [5.08, 2], 'MP9 | Food Chain (Minimal Wear)': [6.7, 2], 'MP9 | Hydra (Field-Tested)': [5.68, 3], 'MP9 | Mount Fuji (Minimal Wear)': [9.79, 1], 'USP-S | Cortex (Minimal Wear)': [6.75, 1], 'USP-S | Cyrex (Factory New)': [65.0, 1], 'USP-S | Jawbreaker (Minimal Wear)': [6.21, 4], 'USP-S | Printstream (Minimal Wear)': [59.42, 0], 'USP-S | The Traitor (Field-Tested)': [33.85, 1], 'AWP | Black Nile (Minimal Wear)': [4.96, 1]}
+AK-47 | Aquamarine Revenge (Field-Tested)
+AK-47 | Head Shot (Field-Tested)
+AK-47 | Inheritance (Field-Tested)
+AK-47 | Legion of Anubis (Field-Tested)
+AK-47 | The Oligarch (Field-Tested)
+AK-47 | The Outsiders (Field-Tested)
+AWP | Atheris (Field-Tested)
+AWP | Green Energy (Field-Tested)
+AWP | Hyper Beast (Field-Tested)
+AWP | Wildfire (Field-Tested)
+Desert Eagle | Mecha Industries (Field-Tested)
+Desert Eagle | Printstream (Field-Tested)
+FAMAS | Mecha Industries (Field-Tested)
+FAMAS | Rapid Eye Movement (Field-Tested)
+Glock-18 | Mirror Mosaic (Field-Tested)
+Glock-18 | Water Elemental (Field-Tested)
+M4A1-S | Basilisk (Field-Tested)
+M4A1-S | Nightmare (Field-Tested)
+M4A1-S | Stratosphere (Field-Tested)
+M4A4 | Hellish (Field-Tested)
+M4A4 | The Emperor (Field-Tested)
+MP9 | Hydra (Field-Tested)
+USP-S | The Traitor (Field-Tested)
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 6
+[ERROR] Failed runs: 2
+[INFO] Success rate: 75.0%
+[INFO] Total execution time: 704.28 seconds
+
+[WARNING] 2 script(s) failed. Check the error messages above.

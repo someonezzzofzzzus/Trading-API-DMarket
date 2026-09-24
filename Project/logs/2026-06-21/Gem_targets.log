@@ -1,0 +1,317 @@
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/delete_targets.py", line 81, in <module>
+    targets = get_targets(public_key,secret_key)
+  File "/root/GAFNA/Project/delete_targets.py", line 71, in get_targets
+    results.extend(response['Items'])
+KeyError: 'Items'
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+ITEMS HISTORY HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[ERROR] 3_Skins_mwv.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/3_Skins_mwv.py", line 60, in <module>
+    BALANCE = get_balance()
+  File "/root/GAFNA/Project/scripts/3_Skins_mwv.py", line 43, in get_balance
+    balance = json.loads(requests.get("https://api.dmarket.com/account/v1/balance", headers=encryption_get(public_key, secret_key, "/account/v1/balance")).text)["usd"]
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[ERROR] 4_skins_history_indicators.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/4_skins_history_indicators.py", line 16, in <module>
+    skins_name = file["Item Name"].tolist()
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Item Name'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[ERROR] 5_skins_offers.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/5_skins_offers.py", line 23, in <module>
+    mwv_items = file_mwv["Item Name"].tolist()
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Item Name'
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[ERROR] 6_history_records.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 239, in <module>
+    closed_targets = get_closed_targets()
+  File "/root/GAFNA/Project/scripts/6_history_records.py", line 117, in get_closed_targets
+    market_response_closed_Targets = json.loads(requests.get("https://api.dmarket.com/marketplace-api/v1/user-targets/closed?OrderDir=desc&Limit=100"+params,headers=headers).text)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[ERROR] 7_target_creation.py failed with return code 1
+Error output:
+Traceback (most recent call last):
+  File "/root/GAFNA/Project/scripts/7_target_creation.py", line 28, in <module>
+    item_names = file["Item Name"].tolist()
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.10/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Item Name'
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 3
+[ERROR] Failed runs: 5
+[INFO] Success rate: 37.5%
+[INFO] Total execution time: 163.08 seconds
+
+[WARNING] 5 script(s) failed. Check the error messages above.
+All targets deleted
+[START] Starting Automated Trading Project Script Runner
+[INFO] Project directory: /root/GAFNA/Project
+[INFO] Using output folder: /root/GAFNA/Project/trading_results
+
+[INFO] Found 8 Python files to run:
+  1. Fees_Script.py
+  2. 1_Skins.py
+  3. 2_skins_weekly_history.py
+  4. 3_Skins_mwv.py
+  5. 4_skins_history_indicators.py
+  6. 5_skins_offers.py
+  7. 6_history_records.py
+  8. 7_target_creation.py
+
+[CONFIG] Configuration:
+   - Execution method: Subprocess
+   - Delay between scripts: 2 seconds
+
+[PROGRESS] Progress: 1/8
+
+============================================================
+Running: Fees_Script.py
+============================================================
+[SUCCESS] Fees_Script.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 2/8
+
+============================================================
+Running: 1_Skins.py
+============================================================
+[SUCCESS] 1_Skins.py completed successfully!
+Output:
+294.9561929702759
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 3/8
+
+============================================================
+Running: 2_skins_weekly_history.py
+============================================================
+[SUCCESS] 2_skins_weekly_history.py completed successfully!
+Output:
+Fetching sales history for 494 skins...
+Fetch finished in 201.6s
+Weekly volumes: 479 established of 494 skins fetched
+WEEKLY VOLUMES HAS BEEN UPDATED
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 4/8
+
+============================================================
+Running: 3_Skins_mwv.py
+============================================================
+[SUCCESS] 3_Skins_mwv.py completed successfully!
+Output:
+Balance: 331.01 | Min weekly volume threshold: 25
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 5/8
+
+============================================================
+Running: 4_skins_history_indicators.py
+============================================================
+[SUCCESS] 4_skins_history_indicators.py completed successfully!
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 6/8
+
+============================================================
+Running: 5_skins_offers.py
+============================================================
+[SUCCESS] 5_skins_offers.py completed successfully!
+Output:
+Balance: 331.01 | PTR20 spread: 1.08
+Skins_offers been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 7/8
+
+============================================================
+Running: 6_history_records.py
+============================================================
+[SUCCESS] 6_history_records.py completed successfully!
+Output:
+Blocked Cash = 144.42
+Cash = 331
+Assets Value = 2230.38
+All items already exist in archive, nothing to add
+Transaction history has been updated
+
+[WAIT] Waiting 2 seconds before next script...
+
+[PROGRESS] Progress: 8/8
+
+============================================================
+Running: 7_target_creation.py
+============================================================
+[SUCCESS] 7_target_creation.py completed successfully!
+Output:
+Available Cash: 331.01 | Blocked Cash: 144.42 | Assets: 2230.38
+Total Balance: 2705.81
+{'AK-47 | Midnight Laminate (Minimal Wear)': [9.99, 0], 'AWP | Atheris (Field-Tested)': [4.52, 14], 'AWP | Green Energy (Field-Tested)': [10.49, 6], 'AWP | Green Energy (Minimal Wear)': [21.77, 0], 'Desert Eagle | Kumicho Dragon (Field-Tested)': [18.86, 3], 'Desert Eagle | Mulberry (Minimal Wear)': [9.15, 5], 'M4A1-S | Basilisk (Field-Tested)': [7.48, 7], 'M4A1-S | Nightmare (Field-Tested)': [9.25, 7], 'M4A4 | Temukau (Minimal Wear)': [57.59, 0], 'M4A4 | Tooth Fairy (Minimal Wear)': [5.43, 8], 'MP9 | Hydra (Field-Tested)': [6.07, 6], 'P250 | Franklin (Factory New)': [7.03, 4], 'USP-S | Royal Guard (Factory New)': [7.05, 5]}
+Targets have been created
+
+
+============================================================
+[SUMMARY] EXECUTION SUMMARY
+============================================================
+[SUCCESS] Successful runs: 8
+[ERROR] Failed runs: 0
+[INFO] Success rate: 100.0%
+[INFO] Total execution time: 655.61 seconds
+
+[SUCCESS] All scripts completed successfully!
+
+[INFO] All results are stored in the SQL database: /root/GAFNA/Project/trading_results/trading.db
+[INFO] Excel mirrors (if enabled) are also refreshed in: /root/GAFNA/Project/trading_results
