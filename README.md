@@ -13,7 +13,7 @@
 For analysing such a huge data set, script require time for get all the requests from Marketplace's server( Consequent requests required ~40 minutes to complete the script).
 
 ## Solution
-Using parallelism and sending multiple GET requests using aiohttp module (Time was reduced to ~10 minutes)
+Using parallelism and sending multiple GET requests using aiohttp module (Time was reduced to ~5 minutes)
 
 ## Features
 - All Itermidiate results during filtering the items are stored in Excel Files allowing faster finding bugs in script
