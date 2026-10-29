@@ -15,7 +15,7 @@ Running the full pipeline places and cancels real orders on the account whose AP
 | 1 | `Fees_Script.py` | Loads items that currently have a reduced DMarket fee. |
 | 2 | `delete_targets.py` | Cancels the account’s active buy targets so the next run can replace them. |
 | 3 | `scripts/1_Skins.py` | Prices every name in `scripts/Skins_names.py` and keeps items inside the configured price band. |
-| 4 | `scripts/2_skins_weekly_history.py` | Collects the last four weeks of sales for those items. This step paginates last-sales and can take up to an hour. |
+| 4 | `scripts/2_skins_weekly_history.py` | Collects the last four weeks of sales for those items.|
 | 5 | `scripts/3_Skins_mwv.py` | Drops items whose minimum weekly volume is below the threshold (30). |
 | 6 | `scripts/4_skins_history_indicators.py` | Builds the volume-derived figures used later for offer depth. |
 | 7 | `scripts/5_skins_offers.py` | Reads the offer book and stores the inputs used to price buy targets. |
@@ -83,8 +83,7 @@ Project/
   trading_results/        Database, workbooks, and sales archive
 ```
 
-## NO SETUP PROVIDED
-## ONLY SHOWCASE
+## Some scripts are not published here (such as sell.script.py,...) due to sensitivity of its code
 
 ## Disclaimer
 
