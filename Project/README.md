@@ -83,7 +83,7 @@ Project/
   trading_results/        Database, workbooks, and sales archive
 ```
 
-## Some scripts are not published here (such as sell.script.py,...) due to sensitivity of its code
+## Some scripts are not published here (such as 7_target_creation.py,...) due to sensitivity of its code base
 
 ## Disclaimer
 
